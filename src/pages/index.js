@@ -3,6 +3,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/home.module.css';
 import { useState } from 'react';
+import Splash from '../components/Splash';
 
 
 export default function Home(props) {
@@ -20,6 +21,10 @@ export default function Home(props) {
         isOpen={isOpen}
         setIsOpen={setIsOpen}
       />
+      {isOpen ? 
+        <Splash />
+        : ''
+      }
     </> 
   )
 }
