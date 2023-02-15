@@ -5,13 +5,6 @@ import { Divide as Hamburger } from 'hamburger-react';
 
 export default function Navbar(props) {
 
-    const handleClick = () => {
-        if (!props.isOpen) {
-            props.setIsOpen(true)
-        } else {
-            props.setIsOpen(false)
-        }
-    }
     
     return (
         <div className="flex justify-between h-1/6">
@@ -21,7 +14,7 @@ export default function Navbar(props) {
                 <h1 className="text-4xl text-white font-bebas">Code</h1>
             </div>
             <div className="flex justify-center w-1/4 mt-8">
-                <Hamburger onClick={handleClick} color="white" size={40}/>
+                <Hamburger toggled={props.isOpen} toggle={props.setIsOpen} color="white" size={40}/>
             </div>
         </div>
     )
