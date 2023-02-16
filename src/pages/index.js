@@ -22,9 +22,12 @@ export default function Home(props) {
         setIsOpen={setIsOpen}
       />
       {isOpen ? 
-        <Splash />
+        <Splash 
+        
+        />
         : ''
       }
+      
     </> 
   )
 }

@@ -6,3 +6,9 @@
   transform: skewX(-35deg);
   transform: skewY(-145deg)
 }
+
+.splash {
+  height: 49999px;
+  background-color: pink;
+
+}
