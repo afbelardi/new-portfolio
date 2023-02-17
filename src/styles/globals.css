@@ -1,5 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+@font-face {
+    font-family: "SabonBold";
+    src: local("Sabon_Bold"),
+    url('../fonts/Sabon_Bold.ttf')
+    format("truetype");
+}
+
+@font-face {
+    font-family: "Recoleta Black";
+    src: local("Recoleta-Black"),
+    url('../fonts/Recoleta-Black.ttf')
+    format("truetype");
+}
+
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
