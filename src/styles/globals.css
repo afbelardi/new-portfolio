@@ -14,6 +14,14 @@
     format("truetype");
 }
 
+@font-face {
+    font-family: "Recoleta Light";
+    src: local("Recoleta-Light"),
+    url('../fonts/Recoleta-Light.ttf')
+    format("truetype");
+}
+
+
 
 
 @tailwind base;
