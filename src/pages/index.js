@@ -9,6 +9,7 @@ import Splash from '../components/Splash';
 export default function Home(props) {
 
   const [isOpen, setIsOpen] = useState(false);
+
   return (
     <>
       <Head>
@@ -23,7 +24,7 @@ export default function Home(props) {
       />
       {isOpen ? 
         <Splash 
-        
+
         />
         : ''
       }
