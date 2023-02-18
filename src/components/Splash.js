@@ -1,6 +1,6 @@
 import styles from '../styles/splash.module.css';
 import Fade from 'react-reveal/Fade';
-import { FaGithub } from 'react-icons/fa'
+import { FaGithub, FaTwitter, FaLinkedin, FaInstagram } from 'react-icons/fa'
 
 export default function Splash (props) {
     return (
@@ -18,9 +18,15 @@ export default function Splash (props) {
                         <a href="https://www.github.com/afbelardi" target="_blank"  className="flex items-center justify-center bg-gray-200 rounded-3xl h-11 w-11">
                             <FaGithub size={28}/>
                         </a>
-                        <a className="bg-gray-200 rounded-3xl h-11 w-11"></a>
-                        <a className="bg-gray-200 rounded-3xl h-11 w-11"></a>
-                        <a className="bg-gray-200 rounded-3xl h-11 w-11"></a>
+                        <a className="flex items-center justify-center bg-gray-200 rounded-3xl h-11 w-11">
+                            <FaLinkedin size={28} />
+                        </a>
+                        <a className="flex items-center justify-center bg-gray-200 rounded-3xl h-11 w-11">
+                            <FaTwitter size={28} /> 
+                        </a>
+                        <a className="flex items-center justify-center bg-gray-200 rounded-3xl h-11 w-11">
+                            <FaInstagram size={28} />
+                        </a>
                     </section>
                 </Fade>
             </div>
