@@ -18,13 +18,13 @@ export default function Splash (props) {
                         <a href="https://www.github.com/afbelardi" target="_blank"  className="flex items-center justify-center bg-gray-200 rounded-3xl h-11 w-11">
                             <FaGithub size={28}/>
                         </a>
-                        <a className="flex items-center justify-center bg-gray-200 rounded-3xl h-11 w-11">
+                        <a href="https://www.linkedin.com/in/afbelardi" target="_blank" className="flex items-center justify-center bg-gray-200 rounded-3xl h-11 w-11">
                             <FaLinkedin size={28} />
                         </a>
-                        <a className="flex items-center justify-center bg-gray-200 rounded-3xl h-11 w-11">
+                        <a href="https://www.twitter.com/afbelardi" target="_blank" className="flex items-center justify-center bg-gray-200 rounded-3xl h-11 w-11">
                             <FaTwitter size={28} /> 
                         </a>
-                        <a className="flex items-center justify-center bg-gray-200 rounded-3xl h-11 w-11">
+                        <a href="https://www.instagram.com/afbelardi" target="_blank" className="flex items-center justify-center bg-gray-200 rounded-3xl h-11 w-11">
                             <FaInstagram size={28} />
                         </a>
                     </section>
