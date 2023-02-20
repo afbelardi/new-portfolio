@@ -21,6 +21,27 @@
     format("truetype");
 }
 
+@font-face {
+    font-family: "Recoleta Bold";
+    src: local("Recoleta-Bold"),
+    url('../fonts/Recoleta-Bold.ttf')
+    format("truetype");
+}
+
+@font-face {
+    font-family: "Recoleta Medium";
+    src: local("Recoleta-Medium"),
+    url('../fonts/Recoleta-Medium.ttf')
+    format("truetype");
+}
+
+@font-face {
+    font-family: "Recoleta Regular";
+    src: local("Recoleta-Regular"),
+    url('../fonts/Recoleta-Regular.ttf')
+    format("truetype");
+}
+
 
 
 

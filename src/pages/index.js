@@ -4,6 +4,7 @@ import Image from 'next/image';
 import styles from '../styles/home.module.css';
 import { useState } from 'react';
 import Splash from '../components/Splash';
+import AboutMe from '../components/AboutMe';
 
 
 export default function Home(props) {
@@ -22,9 +23,9 @@ export default function Home(props) {
         isOpen={isOpen}
         setIsOpen={setIsOpen}
       />
+      <AboutMe />
       {isOpen ? 
         <Splash 
-
         />
         : ''
       }
