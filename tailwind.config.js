@@ -7,7 +7,8 @@ module.exports = {
       colors: {
         'navy': '#0a192f',
         'light-navy': '#112240',
-        'light-blue': '#3b7ad5'
+        'light-blue': '#3b7ad5',
+        'lighter-blue': '#7aa5e3',
       }
     },
     fontFamily: {
