@@ -26,14 +26,15 @@ export default function Home(props) {
       />
       <Intro />
       <AboutMe />
+      <div className="h-56 bg-white">
+
+      </div>
       {isOpen ? 
         <Splash 
         />
         : ''
       }
-      <div className="h-56 mt-56 bg-white">
-
-      </div>
+      
 
     </> 
   )
