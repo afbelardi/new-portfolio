@@ -31,7 +31,10 @@ export default function Home(props) {
         />
         : ''
       }
-      
+      <div className="h-56 mt-56 bg-white">
+
+      </div>
+
     </> 
   )
 }

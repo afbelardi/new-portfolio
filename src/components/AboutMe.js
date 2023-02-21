@@ -10,7 +10,7 @@ export default function AboutMe(props) {
                 <hr className="w-2/5 h-0 mt-5 bg-lighter-blue ml-7" />
             </Fade>
             </div>
-            <img src='/me.jpg' id={styles.about} className="mt-5 rounded-lg "></img>
+            <img src='/me.jpg' id={styles.about} className="mt-5 rounded-lg"></img>
         </div>
     )
 }

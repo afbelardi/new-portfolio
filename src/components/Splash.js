@@ -4,9 +4,9 @@ import { FaGithub, FaTwitter, FaLinkedin, FaInstagram } from 'react-icons/fa'
 
 export default function Splash (props) {
     return (
-        <Fade bottom opposite className="opacity-5">
-            <div className="absolute top-0 z-40 flex flex-col w-screen h-screen bg-light-navy opacity-40">
-                <section className="flex flex-col items-baseline justify-end w-2/3 overflow-hidden mt-36 ml-11 h-1/3">
+        <Fade bottom>
+            <div className="fixed top-0 z-40 flex flex-col w-screen h-full bg-light-navy">
+                <section className="flex flex-col items-baseline justify-end w-2/3 mt-36 ml-11 h-1/3">
                     <Fade left delay={400}>
                         <p className="text-3xl font-bold text-blue-100 font-recoleta-black">Alex Belardi</p>
                         <p className="text-xl text-blue-100 font-recoleta-light">Software Developer</p>
