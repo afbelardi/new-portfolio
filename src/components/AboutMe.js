@@ -22,13 +22,13 @@ export default function AboutMe(props) {
                 <p className="mt-2 text-white text-md font-recoleta-light">
                 Fast-forward and I landed an internship with a company
                 called 
-                <a href="https://www.pullupon7th.com/" className="ml-1 text-indigo-400 underline">Seventh Ave</a>. I focused on the development of microservices and did various front and back end projects.
+                <a href="https://www.pullupon7th.com/" className="ml-1 text-indigo-400 underline">Seventh Ave</a>. I focused on the development of microservices and completed various front and back end projects.
                 </p> 
                 <p className="mt-2 text-white text-md font-recoleta-light">
                 Currently, I am looking for an opportunity to join and contribute to a new company. 
                 </p>
                 <p className="mt-2 text-white text-md font-recoleta-light">
-                Lastly, in addition to my interest in technology, I've been a photographer for many years and you can check out some of my work 
+                Lastly, in addition to my interest in technology, I've been a photographer for many years and you can check out some of my more recent work 
                 <a href="https://afbelardi-blog.herokuapp.com/" className="ml-1 text-indigo-400 underline">here.</a> 
                 </p>  
             </main>
