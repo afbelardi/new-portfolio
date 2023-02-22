@@ -17,8 +17,20 @@ export default function AboutMe(props) {
                 YouTube channel. While partnering with major brands, I had amassed a following of 7,000 subscribers and 2 million video views.
                 </p>
                 <p className="mt-2 text-white text-md font-recoleta-light">After graduating college, I started a job at an Apple retail store and worked my up to the title of Genius. During that
-                time, I decided to start learning how to code and attended General Assembly's Software Engineering Immersive bootcamp. 
+                time, I decided to start learning how to code and attended a General Assembly bootcamp. 
                 </p>
+                <p className="mt-2 text-white text-md font-recoleta-light">
+                Fast-forward and I landed an internship with a company
+                called 
+                <a href="https://www.pullupon7th.com/" className="ml-1 text-indigo-400 underline">Seventh Ave</a>. I focused on the development of microservices and did various front and back end projects.
+                </p> 
+                <p className="mt-2 text-white text-md font-recoleta-light">
+                Currently, I am looking for an opportunity to join and contribute to a new company. 
+                </p>
+                <p className="mt-2 text-white text-md font-recoleta-light">
+                Lastly, in addition to my interest in technology, I've been a photographer for many years and you can check out some of my work 
+                <a href="https://afbelardi-blog.herokuapp.com/" className="ml-1 text-indigo-400 underline">here.</a> 
+                </p>  
             </main>
             </section>
             
