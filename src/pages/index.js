@@ -26,9 +26,6 @@ export default function Home(props) {
       />
       <Intro />
       <AboutMe />
-      <div className="h-56 bg-white mt-11">
-
-      </div>
       {isOpen ? 
         <Splash 
         />
