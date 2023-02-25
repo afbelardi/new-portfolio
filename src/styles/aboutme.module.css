@@ -1,17 +1,18 @@
-#about {
-    animation: fadeIn 3s;
+.notanimated {
+    position: relative;
+    margin-top: 2.5rem;
 }
 
-@keyframes fadeIn {
-    0% {
-        opacity: 0;
+.projects {
+    position: relative;
+    animation: show 1s ease-in;
+}
+
+@keyframes show {
+      0% {
+        opacity: 0
     }
-    100% {
+      100%  {
         opacity: 1
     }
-}
-
-#test {
-    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s, opacity 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0s, transform 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
-}
+  }

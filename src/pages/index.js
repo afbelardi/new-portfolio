@@ -1,8 +1,8 @@
+import { useRef, useEffect, useState } from 'react';
 import Navbar from '../components/Navbar';
 import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/home.module.css';
-import { useState } from 'react';
 import Splash from '../components/Splash';
 import AboutMe from '../components/AboutMe';
 import Intro from '../components/Intro';
@@ -10,7 +10,19 @@ import Projects from '../components/Projects';
 
 export default function Home(props) {
 
+
   const [isOpen, setIsOpen] = useState(false);
+  // const [isElementVisible, setIsElementVisible] = useState()
+  // const myRef = useRef();
+  // console.log('isElementIsVisible', isElementVisible)
+
+  // useEffect(() => {
+  //   const observer = new IntersectionObserver((entries) => {
+  //     const entry = entries[0]
+  //     setIsElementVisible(entry.isIntersecting)
+  //   })
+  //   observer.observe(myRef.current)
+  // }, []);
 
   return (
     <>
@@ -26,7 +38,9 @@ export default function Home(props) {
       />
       <Intro />
       <AboutMe />
-      <Projects />
+      <Projects 
+
+      />
       {isOpen ? 
         <Splash 
         />

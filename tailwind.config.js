@@ -32,7 +32,16 @@ module.exports = {
         'light-navy': '#112240',
         'light-blue': '#3b7ad5',
         'lighter-blue': '#7aa5e3',
-      }
+      },
+      animation: {
+        show: 'show 2s ease-out'
+      },
+      keyframes: {
+        show: {
+          '0%': {opacity: '0'},
+          '110%': {opacity: '1'}
+        }
+      },
     },
     fontFamily: {
       'bebas': ['Bebas Neue', 'sans-serif'],
