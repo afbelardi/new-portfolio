@@ -4,7 +4,10 @@ module.exports = {
   content: ["./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     minHeight: {
-      '400': '400px'
+      '400': '400px',
+      '600': '600px',
+      '800': '800px',
+      '1000': '1000px'
     },
     maxHeight: {
       '30%': '30%',
