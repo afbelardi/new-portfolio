@@ -11,20 +11,15 @@ export default function Projects(props) {
                 </Fade>
             </div>
             <div className="flex flex-col w-full p-4 mt-3 min-h-800">
-                {/* <Fade right> */}
-                        <img className="object-cover mt-5 rounded-lg opacity-40" src="/photoblog.png" />
-                {/* </Fade> */}
-                <Fade left>
-                    <div>
-                    <img className="object-cover mt-10 rounded-lg" src="/photomint.png"></img>
-                    </div>
-                </Fade>
+                <div className="relative">
+                        <img className="rounded-lg "  src="/photoblog.png" />
+                        <div className="absolute top-0 left-0 z-40 w-full h-full bg-light-navy opacity-90"></div>
+                </div>
+                <div className="relative mt-10">
+                        <img className="rounded-lg "  src="/photomint.png" />
+                        <div className="absolute top-0 left-0 z-40 w-full h-full bg-light-navy opacity-90"></div>
+                </div>
                 <Fade right>
-                    <div>
-                    <img className="object-cover mt-10 rounded-lg" src="/gtop.png"></img>
-                    </div>
-                </Fade>
-                <Fade left>
                     <div>
                     <img className="object-cover mt-10 rounded-lg" src="/gtop.png"></img>
                     </div>
