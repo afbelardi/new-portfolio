@@ -19,11 +19,10 @@ export default function Projects(props) {
                         <img className="rounded-lg "  src="/photomint.png" />
                         <div className="absolute top-0 left-0 z-40 w-full h-full bg-light-navy opacity-90"></div>
                 </div>
-                <Fade right>
-                    <div>
-                    <img className="object-cover mt-10 rounded-lg" src="/gtop.png"></img>
-                    </div>
-                </Fade>
+                <div className="relative mt-10">
+                        <img className="rounded-lg "  src="/gtop.png" />
+                        <div className="absolute top-0 left-0 z-40 w-full h-full bg-light-navy opacity-90"></div>
+                </div>
             </div>
         </div>
     )
