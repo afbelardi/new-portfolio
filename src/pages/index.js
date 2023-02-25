@@ -12,17 +12,6 @@ export default function Home(props) {
 
 
   const [isOpen, setIsOpen] = useState(false);
-  // const [isElementVisible, setIsElementVisible] = useState()
-  // const myRef = useRef();
-  // console.log('isElementIsVisible', isElementVisible)
-
-  // useEffect(() => {
-  //   const observer = new IntersectionObserver((entries) => {
-  //     const entry = entries[0]
-  //     setIsElementVisible(entry.isIntersecting)
-  //   })
-  //   observer.observe(myRef.current)
-  // }, []);
 
   return (
     <>
@@ -38,9 +27,7 @@ export default function Home(props) {
       />
       <Intro />
       <AboutMe />
-      <Projects 
-
-      />
+      <Projects />
       {isOpen ? 
         <Splash 
         />
