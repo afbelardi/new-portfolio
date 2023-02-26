@@ -16,3 +16,7 @@
         opacity: 1
     }
   }
+
+  #intro {
+    animation: show 1s ease-in;
+  }

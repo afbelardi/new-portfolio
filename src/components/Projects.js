@@ -1,6 +1,7 @@
 import { Fade } from 'react-reveal';
 import styles from '../styles/aboutme.module.css';
 import { useInView } from 'react-intersection-observer';
+import { VscFolderOpened } from 'react-icons/vsc'
 
 export default function Projects(props) {
 
@@ -17,12 +18,16 @@ export default function Projects(props) {
             </div>
             <div className="flex flex-col w-full p-4 mt-3 min-h-800">
                 <div ref={myRef} className={`${styles.notanimated} ${isElementVisible ? styles.projects: ''}`}>
-                        <img className="rounded-lg "  src="/photoblog.png" />
-                        <div className="absolute top-0 left-0 z-40 w-full h-full bg-light-navy opacity-90"></div>
+                        <img className="rounded-lg opacity-15"  src="/photoblog.png" />
+                        <div className="absolute top-0 left-0 z-40 w-full h-full opacity-90 bg-light-navy">
+                            <div className="w-full h-full p-6">
+                                <VscFolderOpened />
+                            </div>
+                        </div>
                 </div>
                 <div ref={nftRef} className={`${styles.notanimated} ${isNftVisible ? styles.projects: ''}`}>
-                        <img className="rounded-lg "  src="/photomint.png" />
-                        <div className="absolute top-0 left-0 z-40 w-full h-full bg-light-navy opacity-90"></div>
+                        <img className="rounded-lg opacity-15"  src="/photomint.png" />
+                        <div className="absolute top-0 left-0 z-40 w-full h-full opacity-90 bg-light-navy"></div>
                 </div>
                 <div ref={gtopRef} className={`${styles.notanimated} ${isGtopVisible ? styles.projects: ''}`}>
                         <img className="rounded-lg "  src="/gtop.png" />
