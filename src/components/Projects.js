@@ -21,40 +21,47 @@ export default function Projects(props) {
                         <img className="object-cover rounded-lg opacity-15 min-h-300"  src="/photoblog.png" />
                         <div className="absolute top-0 left-0 z-40 w-full h-full opacity-90 bg-light-navy">
                             <div className="flex flex-col w-full h-full">
-                                <div className="flex justify-between w-full p-3">
+                                <section className="flex justify-between w-full p-3">
                                     <VscFolderOpened size={40} className="text-blue-300"/>
                                     <h1 className="mt-2 text-2xl text-blue-400 font-recoleta-bold font-outline">Photo Blog</h1>
-                                </div>
-                                <div className='w-full p-3 mt-1 text-center text-white font-recoleta-light'>
+                                </section>
+                                <section className='w-full p-3 mt-1 text-center text-white font-recoleta-light'>
                                     <p>A project built as a Tumblr-esque design to showcase my more recent photography work.
                                         The site features a light and dark mode option as well as the ability to click on each photo and make them larger.
                                     </p>
-                                </div>
+                                </section>
                             </div>
                         </div>
                 </div>
                 <div ref={nftRef} className={`${styles.notanimated} ${isNftVisible ? styles.projects: ''}`}>
                         <img className="object-cover rounded-lg opacity-15 min-h-300"  src="/photomint.png" />
                         <div className="absolute top-0 left-0 z-40 w-full h-full opacity-90 bg-light-navy">
-                        <div className="flex flex-col w-full h-full">
-                            <div className="flex justify-between w-full p-3 ">
-                                <VscFolderOpened size={40} className="text-blue-300" />
-                                <h1 className="mt-2 text-2xl text-blue-400 font-recoleta-bold font-outline">NFT Mint Site</h1>
+                            <div className="flex flex-col w-full h-full">
+                                <section className="flex justify-between w-full p-3 ">
+                                    <VscFolderOpened size={40} className="text-blue-300" />
+                                    <h1 className="mt-2 text-2xl text-blue-400 font-recoleta-bold font-outline">NFT Mint Site</h1>
+                                </section>
+                                <section className='w-full p-4 text-center text-white font-recoleta-light'>
+                                        <p>Created as a site to mint a selection of my photos on the Goerli testnet. The user has the ability to connect their wallet, mint up to 
+                                            3 photos with a smart contract I created, view the transactions on Etherscan and see the collection on OpenSea.
+                                        </p>
+                                </section>
                             </div>
-                            <div className='w-full p-4 text-center text-white font-recoleta-light'>
-                                    <p>Created as a site to mint a selection of my photos on the Goerli testnet. The user has the ability to connect their wallet, mint up to 
-                                        3 photos with a smart contract I created, view the transactions on Etherscan and see the collection on OpenSea.
-                                    </p>
-                                </div>
-                        </div>
                         </div>     
                 </div>
                 <div ref={gtopRef} className={`${styles.notanimated} ${isGtopVisible ? styles.projects: ''}`}>
                         <img className="object-cover rounded-lg opacity-15 min-h-300"  src="/gtop.png" />
                         <div className="absolute top-0 left-0 z-40 w-full h-full bg-light-navy opacity-90">
-                            <div className="flex justify-between w-full h-full p-3">
-                                <VscFolderOpened size={40} className="text-blue-300"/>
-                                <h1 className="mt-2 text-2xl text-blue-400 font-recoleta-bold font-outline">NFT Project Promo</h1>
+                            <div className="flex flex-col w-full h-full">
+                                <section className="flex justify-between w-full p-3">
+                                    <VscFolderOpened size={40} className="text-blue-300"/>
+                                    <h1 className="mt-2 text-2xl text-blue-400 font-recoleta-bold font-outline">NFT Project Promo</h1>
+                                </section>
+                                <section className='w-full p-4 text-center text-white font-recoleta-light'>
+                                    <p>A Gift to Our People - An NFT project that is the brainchild of Seventh Ave. While interning at the company, I assisted on building
+                                        this site that promoted and provided information for the project.
+                                    </p>
+                                </section>
                             </div>
                         </div>
                 </div>
