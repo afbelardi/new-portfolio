@@ -1,7 +1,8 @@
 import { Fade } from 'react-reveal';
 import styles from '../styles/aboutme.module.css';
 import { useInView } from 'react-intersection-observer';
-import { VscFolderOpened } from 'react-icons/vsc'
+import { VscFolderOpened } from 'react-icons/vsc';
+import { BiCaretRight } from 'react-icons/bi';
 
 export default function Projects(props) {
 
@@ -18,38 +19,50 @@ export default function Projects(props) {
             </div>
             <div className="flex flex-col items-center p-1 mt-3 min-h-800">
                 <div ref={myRef} className={`${styles.notanimated} ${isElementVisible ? styles.projects: ''}`}>
-                        <img className="object-cover rounded-lg opacity-15 min-h-300"  src="/photoblog.png" />
+                        <img className="object-cover rounded-lg opacity-15 min-h-400"  src="/photoblog.png" />
                         <div className="absolute top-0 left-0 z-40 w-full h-full rounded-lg opacity-90 bg-light-navy">
-                            <div className="flex flex-col w-full h-full">
-                                <section className="flex justify-between w-full p-3">
-                                    <VscFolderOpened size={40} className="text-blue-300"/>
+                            <div className="flex flex-col items-center justify-center w-full h-full">
+                                <section className="flex justify-between w-5/6 p-3">
+                                    <VscFolderOpened size={40} className="ml-2 text-blue-300 "/>
                                     <h1 className="mt-2 text-2xl text-blue-400 font-recoleta-bold font-outline">Photo Blog</h1>
                                 </section>
-                                <section className='w-full p-3 mt-1 text-center text-white text-md font-recoleta-regular'>
+                                <section className='w-full p-3 mt-5 text-center text-white text-md font-recoleta-regular'>
                                     <p>A project built as a Tumblr-esque design to showcase my more recent photography work.
                                         The site features a light and dark mode option as well as the ability to click on each photo and make them larger.
                                     </p>
                                 </section>
-                            <footer className="flex flex-col justify-end w-full h-3/5">
-                                <ul className="flex justify-around w-2/3 p-1 mb-2 text-sm text-white font-recoleta-light">
-                                    <li>React</li>
-                                    <li>NestJS</li>
-                                    <li>MongoDB</li>
-                                    <li>NodeJs</li>
+                            <footer className="flex flex-col justify-end w-full h-1/6">
+                                <ul className="flex flex-wrap justify-start w-2/3 p-1 mb-2 ml-4 text-sm text-white whitespace-nowrap font-recoleta-bold">
+                                    <li className="flex mr-2">
+                                        <BiCaretRight className="mt-0.5 text-green-300"/>
+                                        <p>React</p>
+                                    </li>
+                                    <li className="flex mr-2">
+                                        <BiCaretRight className="mt-0.5 text-green-300"/>
+                                        <p>NestJs</p>
+                                    </li>
+                                    <li className="flex mr-2">
+                                        <BiCaretRight className="mt-0.5 text-green-300"/>
+                                        <p>MongoDB</p>
+                                    </li>
+                                    <li className="flex mr-5">
+                                        <BiCaretRight className="mt-0.5 text-green-300"/>
+                                        <p>Node.js</p>
+                                    </li>
                                 </ul>
                             </footer>
                             </div>
                         </div>
                 </div>
                 <div ref={nftRef} className={`${styles.notanimated} ${isNftVisible ? styles.projects: ''}`}>
-                        <img className="object-cover rounded-lg opacity-15 min-h-300"  src="/photomint.png" />
+                        <img className="object-cover rounded-lg opacity-15 min-h-400"  src="/photomint.png" />
                         <div className="absolute top-0 left-0 z-40 w-full h-full opacity-90 bg-light-navy">
                             <div className="flex flex-col w-full h-full">
                                 <section className="flex justify-between w-full p-3 ">
                                     <VscFolderOpened size={40} className="text-blue-300" />
                                     <h1 className="mt-2 text-2xl text-blue-400 font-recoleta-bold font-outline">NFT Mint Site</h1>
                                 </section>
-                                <section className='w-full p-4 text-center text-white text-md font-recoleta-regular'>
+                                <section className='w-full p-4 mt-5 text-center text-white text-md font-recoleta-regular'>
                                         <p>Created as a site to mint a selection of my photos on the Goerli testnet. The user has the ability to connect their wallet, mint up to 
                                             3 photos with a smart contract I created, view the transactions on Etherscan and see the collection on OpenSea.
                                         </p>
@@ -58,14 +71,14 @@ export default function Projects(props) {
                         </div>     
                 </div>
                 <div ref={gtopRef} className={`${styles.notanimated} ${isGtopVisible ? styles.projects: ''}`}>
-                        <img className="object-cover rounded-lg opacity-15 min-h-300"  src="/gtop.png" />
+                        <img className="object-cover rounded-lg opacity-15 min-h-400"  src="/gtop.png" />
                         <div className="absolute top-0 left-0 z-40 w-full h-full bg-light-navy opacity-90">
                             <div className="flex flex-col w-full h-full">
                                 <section className="flex justify-between w-full p-3">
                                     <VscFolderOpened size={40} className="text-blue-300"/>
                                     <h1 className="mt-2 text-2xl text-blue-400 font-recoleta-bold font-outline">NFT Project Promo</h1>
                                 </section>
-                                <section className='w-full p-4 text-center text-white font-recoleta-regular'>
+                                <section className='w-full p-4 mt-5 text-center text-white font-recoleta-regular'>
                                     <p>A Gift to Our People - An NFT project that is the brainchild of Seventh Ave. While interning at the company, I assisted on building
                                         this site that promoted and provided information for the project.
                                     </p>
