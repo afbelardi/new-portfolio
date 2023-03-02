@@ -16,10 +16,10 @@ export default function Projects(props) {
                     <hr className="w-2/5 h-0 mt-5 ml-7 bg-lighter-blue" />
                 </Fade>
             </div>
-            <div className="flex flex-col w-full p-1 mt-3 min-h-800">
+            <div className="flex flex-col items-center p-1 mt-3 min-h-800">
                 <div ref={myRef} className={`${styles.notanimated} ${isElementVisible ? styles.projects: ''}`}>
                         <img className="object-cover rounded-lg opacity-15 min-h-300"  src="/photoblog.png" />
-                        <div className="absolute top-0 left-0 z-40 w-full h-full opacity-90 bg-light-navy">
+                        <div className="absolute top-0 left-0 z-40 w-full h-full rounded-lg opacity-90 bg-light-navy">
                             <div className="flex flex-col w-full h-full">
                                 <section className="flex justify-between w-full p-3">
                                     <VscFolderOpened size={40} className="text-blue-300"/>
@@ -31,9 +31,11 @@ export default function Projects(props) {
                                     </p>
                                 </section>
                             <footer className="flex flex-col justify-end w-full h-3/5">
-                                <ul className="flex justify-around w-1/2 text-white font-recoleta-light">
+                                <ul className="flex justify-around w-2/3 p-1 mb-2 text-sm text-white font-recoleta-light">
                                     <li>React</li>
                                     <li>NestJS</li>
+                                    <li>MongoDB</li>
+                                    <li>NodeJs</li>
                                 </ul>
                             </footer>
                             </div>
