@@ -20,10 +20,13 @@ export default function Projects(props) {
                 <div ref={myRef} className={`${styles.notanimated} ${isElementVisible ? styles.projects: ''}`}>
                         <img className="rounded-lg opacity-15"  src="/photoblog.png" />
                         <div className="absolute top-0 left-0 z-40 w-full h-full opacity-90 bg-light-navy">
-                            <div className="w-full h-full p-6">
+                            <div className="flex justify-between w-full h-full p-6">
                                 <VscFolderOpened size={40} className="text-blue-300"/>
+                                <h1 className="text-3xl text-blue-400 font-recoleta-bold font-outline">Photo Blog</h1>
                             </div>
+                            
                         </div>
+                        
                 </div>
                 <div ref={nftRef} className={`${styles.notanimated} ${isNftVisible ? styles.projects: ''}`}>
                         <img className="rounded-lg opacity-15"  src="/photomint.png" />
