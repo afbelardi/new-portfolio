@@ -12,10 +12,10 @@ export default function AboutMe(props) {
             </div>
             <section className="flex flex-col items-center justify-center h-5/6">
                 <img src='/me.jpg' id={styles.about} className="w-full mt-5 rounded-lg min-h-5/6 max-w-400 max-h-400"></img>
-                <main className="w-full mt-4 text-center max-w-500">
+                <main className="w-5/6 mt-4 text-justify max-w-500">
                     <Fade up>
-                        <p className="text-white text-md font-recoleta-light">My interest in technology started from a young age. By 13 years old, I was creating technology product review videos for my
-                        YouTube channel. While partnering with major brands, I had amassed a following of 7,000 subscribers and 2 million video views.
+                        <p className="text-white text-md font-recoleta-light">My interest in technology began from a young age. By 13 years old, I was creating technology product review videos for my
+                        YouTube channel. While partnering with major brands, I amassed a following of 7,000 subscribers and 2 million video views.
                         </p>
                     </Fade>
                     <Fade up>
@@ -29,12 +29,7 @@ export default function AboutMe(props) {
                         called 
                             <a href="https://www.pullupon7th.com/" className="ml-1 text-indigo-400 underline">Seventh Ave</a>. I focused on the development of microservices and completed various front and back end projects while consistently learning on the fly.
                         </p> 
-                    </Fade>
-                    <Fade up>
-                        <p className="mt-2 text-white text-md font-recoleta-light">
-                        Currently, I am looking for an opportunity to join and contribute to a new company. 
-                        </p>
-                    </Fade>
+                    </Fade> 
                     <Fade up>
                         <p className="mt-2 text-white text-md font-recoleta-light">
                         Lastly, in addition to my interest in technology, I've been a photographer for many years and you can check out some of my more recent work 

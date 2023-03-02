@@ -25,7 +25,7 @@ export default function Projects(props) {
                                     <VscFolderOpened size={40} className="text-blue-300"/>
                                     <h1 className="mt-2 text-2xl text-blue-400 font-recoleta-bold font-outline">Photo Blog</h1>
                                 </section>
-                                <section className='w-full p-3 mt-1 text-center text-white font-recoleta-regular'>
+                                <section className='w-full p-3 mt-1 text-center text-white text-md font-recoleta-regular'>
                                     <p>A project built as a Tumblr-esque design to showcase my more recent photography work.
                                         The site features a light and dark mode option as well as the ability to click on each photo and make them larger.
                                     </p>
@@ -47,7 +47,7 @@ export default function Projects(props) {
                                     <VscFolderOpened size={40} className="text-blue-300" />
                                     <h1 className="mt-2 text-2xl text-blue-400 font-recoleta-bold font-outline">NFT Mint Site</h1>
                                 </section>
-                                <section className='w-full p-4 text-center text-white font-recoleta-regular'>
+                                <section className='w-full p-4 text-center text-white text-md font-recoleta-regular'>
                                         <p>Created as a site to mint a selection of my photos on the Goerli testnet. The user has the ability to connect their wallet, mint up to 
                                             3 photos with a smart contract I created, view the transactions on Etherscan and see the collection on OpenSea.
                                         </p>
