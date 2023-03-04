@@ -3,6 +3,7 @@ import styles from '../styles/aboutme.module.css';
 import { useInView } from 'react-intersection-observer';
 import { VscFolderOpened } from 'react-icons/vsc';
 import { BiCaretRight } from 'react-icons/bi';
+import { FiGithub } from 'react-icons/fi'
 
 export default function Projects(props) {
 
@@ -51,6 +52,11 @@ export default function Projects(props) {
                                     </li>
                                 </ul>
                             </footer>
+                            <div className="flex justify-start w-full pb-2 pl-6 mb-2">
+                                <a href="https://github.com/afbelardi/photo-blog-frontend" target="_blank">
+                                    <FiGithub size={32} className="mt-5 text-white"/>
+                                </a>
+                            </div>
                             </div>
                         </div>
                 </div>
