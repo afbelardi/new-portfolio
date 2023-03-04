@@ -1,7 +1,8 @@
 import styles from '../styles/aboutme.module.css';
 import { Fade } from 'react-reveal';
 import { useInView } from 'react-intersection-observer';
-
+import skills from '../styles/skills.module.css';
+import { FaReact } from 'react-icons/fa';
 
 export default function Skills(props) {
 
@@ -22,11 +23,14 @@ export default function Skills(props) {
             </div>
             <main className="flex w-full mt-7">
                 <ul className="flex flex-col items-center w-full">
-                    <li className="w-2/3 h-48 bg-blue-300 rounded-t-lg max-w-400">React</li>
-                    <li className="w-2/3 h-48 bg-blue-400 max-w-400">JavaScript</li>
-                    <li className="w-2/3 h-48 bg-blue-500 max-w-400">CSS</li>
-                    <li className="w-2/3 h-48 bg-blue-600 max-w-400">Express</li>
-                    <li className="w-2/3 h-48 bg-blue-700 rounded-b-lg max-w-400">Solidity</li>
+                    <li ref={reactRef} className={`${skills.showing} ${isReactIconVisible ? skills.skills: ''}`}>
+                        <FaReact size={98} className="text-white" />
+                        <p className="text-2xl text-white font-recoleta-regular">React</p>
+                    </li>
+                    <li ref={javascriptRef} className="w-2/3 h-48 bg-blue-400 max-w-400">JavaScript</li>
+                    <li ref={cssRef} className="w-2/3 h-48 bg-blue-500 max-w-400">CSS</li>
+                    <li ref={expressRef} className="w-2/3 h-48 bg-blue-600 max-w-400">Express</li>
+                    <li ref={solidityRef} className="w-2/3 h-48 bg-blue-700 rounded-b-lg max-w-400">Solidity</li>
                 </ul>
             </main>
         </div>
