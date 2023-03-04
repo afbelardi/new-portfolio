@@ -1,8 +1,17 @@
 import styles from '../styles/aboutme.module.css';
 import { Fade } from 'react-reveal';
+import { useInView } from 'react-intersection-observer';
 
 
 export default function Skills(props) {
+
+    const { ref: reactRef, inView: isReactIconVisible } = useInView();
+    const { ref: javascriptRef, inView: isJavaScriptVisible } = useInView();
+    const { ref: cssRef, inView: isCSSIconVisible } = useInView();
+    const { ref: expressRef, inView: isExpressIconVisible } = useInView();
+    const { ref: solidityRef, inView: isSolidityIconVisible } = useInView();
+
+
     return (
         <div className="flex flex-col w-full p-4 mt-10 min-h-400">
             <div className="flex w-full">
