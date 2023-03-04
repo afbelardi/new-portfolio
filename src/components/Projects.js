@@ -3,7 +3,8 @@ import styles from '../styles/aboutme.module.css';
 import { useInView } from 'react-intersection-observer';
 import { VscFolderOpened } from 'react-icons/vsc';
 import { BiCaretRight } from 'react-icons/bi';
-import { FiGithub } from 'react-icons/fi'
+import { FiGithub } from 'react-icons/fi';
+import { ImLink } from 'react-icons/im';
 
 export default function Projects(props) {
 
@@ -54,7 +55,10 @@ export default function Projects(props) {
                             </footer>
                             <div className="flex justify-start w-full pb-2 pl-6 mb-2">
                                 <a href="https://github.com/afbelardi/photo-blog-frontend" target="_blank">
-                                    <FiGithub size={32} className="mt-5 text-white"/>
+                                    <FiGithub size={28} className="mt-5 text-white"/>
+                                </a>
+                                <a href="https://afbelardi-blog.herokuapp.com/" target="_blank">
+                                    <ImLink size={28} className="mt-5 ml-3 text-white" />
                                 </a>
                             </div>
                             </div>
@@ -89,6 +93,14 @@ export default function Projects(props) {
                                     </li>
                                 </ul>
                             </footer>
+                            <div className="flex justify-start w-full pb-2 pl-6 mb-2">
+                                <a href="https://github.com/afbelardi/mint-photo-dapp" target="_blank">
+                                    <FiGithub size={28} className="mt-5 text-white"/>
+                                </a>
+                                <a href="https://test-mint-site.herokuapp.com/" target="_blank">
+                                    <ImLink size={28} className="mt-5 ml-3 text-white" />
+                                </a>
+                            </div>
                             </div>
                         </div>     
                 </div>
@@ -96,7 +108,7 @@ export default function Projects(props) {
                         <img className="object-cover rounded-lg opacity-15 min-h-400"  src="/gtop.png" />
                         <div className="absolute top-0 left-0 z-40 w-full h-full bg-light-navy opacity-90">
                             <div className="flex flex-col items-center justify-center w-full h-full">
-                                <section className="flex justify-between w-5/6 p-3">
+                                <section className="flex justify-between w-full p-3">
                                     <VscFolderOpened size={40} className="text-blue-300"/>
                                     <h1 className="mt-2 text-2xl text-blue-400 font-recoleta-bold font-outline">NFT Project Promo</h1>
                                 </section>
@@ -117,6 +129,14 @@ export default function Projects(props) {
                                     </li>
                                 </ul>
                             </footer>
+                            <div className="flex justify-start w-full pl-6 mb-2 min-w-200">
+                                <a href="https://github.com/afbelardi/photo-blog-frontend" target="_blank">
+                                    <FiGithub size={28} className="relative mt-5 text-white"/>
+                                </a>
+                                <a href="https://afbelardi-blog.herokuapp.com/" target="_blank">
+                                    <ImLink size={28} className="relative mt-5 ml-3 text-white" />
+                                </a>
+                            </div>
                             </div>
                         </div>
                 </div>
