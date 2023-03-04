@@ -7,6 +7,8 @@ import Splash from '../components/Splash';
 import AboutMe from '../components/AboutMe';
 import Intro from '../components/Intro';
 import Projects from '../components/Projects';
+import Skills from '../components/Skills';
+
 
 export default function Home(props) {
 
@@ -33,6 +35,7 @@ export default function Home(props) {
         />
         : ''
       }
+      <Skills />
     </> 
   )
 }
