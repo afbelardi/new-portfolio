@@ -10,7 +10,7 @@
     justify-content: space-around;
 }
 
-#react {
+.showing:nth-child(1) {
     --tw-bg-opacity: 1;
     background-color: rgb(147 197 253 / var(--tw-bg-opacity));
     border-top-left-radius: 0.5rem/* 8px */;
@@ -18,22 +18,22 @@
 
 }
 
-#javascript {
+.showing:nth-child(2) {
     --tw-bg-opacity: 1;
     background-color: rgb(96 165 250 / var(--tw-bg-opacity));
 }
 
-#css {
+.showing:nth-child(3) {
     --tw-bg-opacity: 1;
     background-color: rgb(59 130 246 / var(--tw-bg-opacity));
 }
 
-#express {
+.showing:nth-child(4) {
     --tw-bg-opacity: 1;
     background-color: rgb(37 99 235 / var(--tw-bg-opacity));
 }
 
-#solidity {
+.showing:nth-child(5) {
     --tw-bg-opacity: 1;
     background-color: rgb(29 78 216 / var(--tw-bg-opacity));
     border-bottom-right-radius: 0.5rem/* 8px */;
