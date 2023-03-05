@@ -25,23 +25,23 @@ export default function Skills(props) {
             </div>
             <main className="flex w-full mt-7">
                 <ul className="flex flex-col items-center w-full">
-                    <li ref={reactRef} className={`${skills.showing} ${isReactIconVisible ? skills.skills: ''}`}>
+                    <li ref={reactRef} className={`${skills.showing} ${isReactIconVisible ? skills.skillsLeft: ''}`}>
                         <FaReact size={98} className="text-white" />
                         <p className="text-2xl text-white font-recoleta-regular">React</p>
                     </li>
-                    <li ref={javascriptRef} className={`${skills.showing} ${isReactIconVisible ? skills.skills: ''}`}>
+                    <li ref={javascriptRef} className={`${skills.showing} ${isJavaScriptVisible ? skills.skillsRight: ''}`}>
                         <SiJavascript size={98} className="text-white" />
                         <p className="text-2xl text-white font-recoleta-regular">JavaScript</p>
                     </li>
-                    <li ref={cssRef} className={`${skills.showing} ${isReactIconVisible ? skills.skills: ''}`}>
+                    <li ref={cssRef} className={`${skills.showing} ${isCSSIconVisible ? skills.skillsLeft: ''}`}>
                         <IoLogoCss3 size={98} className="text-white" />
                         <p className="text-2xl text-white font-recoleta-regular">CSS</p>
                     </li>
-                    <li ref={expressRef} className={`${skills.showing} ${isReactIconVisible ? skills.skills: ''}`}>
+                    <li ref={expressRef} className={`${skills.showing} ${isExpressIconVisible ? skills.skillsRight: ''}`}>
                         <FaServer size={98} className="text-white" />
                         <p className="text-2xl text-white font-recoleta-regular">Express</p>
                     </li>
-                    <li ref={solidityRef} className={`${skills.showing} ${isReactIconVisible ? skills.skills: ''}`}>
+                    <li ref={solidityRef} className={`${skills.showing} ${isSolidityIconVisible ? skills.skillsLeft: ''}`}>
                         <SiSolidity size={98} className="text-white" />
                         <p className="text-2xl text-white font-recoleta-regular">Solidity</p>
                     </li>

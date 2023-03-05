@@ -42,16 +42,27 @@
 
 
 
-/* .skills {
+.skillsLeft {
     position: relative;
-    animation: enter 4s ease-in;
+    animation: enter 1s ease-in;
+}
+
+.skillsRight {
+    position: relative;
+    animation: enterLeft 1s ease-in;
+}
+
+@keyframes enterLeft {
+    0% {
+        transform: translateX(50%);
+        opacity: 0;
+        
+    }
 }
 
 @keyframes enter {
     0% {
-        transform: translateX(200%);
+        transform: translateX(-50%);
+        opacity: 0;
     }
-    100% {
-        transform: translateX(100%);
-    }
-} */
+}
