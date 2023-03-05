@@ -2,7 +2,9 @@ import styles from '../styles/aboutme.module.css';
 import { Fade } from 'react-reveal';
 import { useInView } from 'react-intersection-observer';
 import skills from '../styles/skills.module.css';
-import { FaReact } from 'react-icons/fa';
+import { FaReact, FaCss3, FaServer } from 'react-icons/fa';
+import { SiJavascript, SiSolidity } from 'react-icons/si';
+import { IoLogoCss3 } from 'react-icons/io';
 
 export default function Skills(props) {
 
@@ -23,14 +25,26 @@ export default function Skills(props) {
             </div>
             <main className="flex w-full mt-7">
                 <ul className="flex flex-col items-center w-full">
-                    <li ref={reactRef} className={`${skills.showing} ${isReactIconVisible ? skills.skills: ''}`}>
+                    <li ref={reactRef} id={skills.react} className={`${skills.showing} ${isReactIconVisible ? skills.skills: ''}`}>
                         <FaReact size={98} className="text-white" />
                         <p className="text-2xl text-white font-recoleta-regular">React</p>
                     </li>
-                    <li ref={javascriptRef} className="w-2/3 h-48 bg-blue-400 max-w-400">JavaScript</li>
-                    <li ref={cssRef} className="w-2/3 h-48 bg-blue-500 max-w-400">CSS</li>
-                    <li ref={expressRef} className="w-2/3 h-48 bg-blue-600 max-w-400">Express</li>
-                    <li ref={solidityRef} className="w-2/3 h-48 bg-blue-700 rounded-b-lg max-w-400">Solidity</li>
+                    <li ref={javascriptRef} id={skills.javascript} className={`${skills.showing} ${isReactIconVisible ? skills.skills: ''}`}>
+                        <SiJavascript size={98} className="text-white" />
+                        <p className="text-2xl text-white font-recoleta-regular">Javascript</p>
+                    </li>
+                    <li ref={cssRef} id={skills.css} className={`${skills.showing} ${isReactIconVisible ? skills.skills: ''}`}>
+                        <IoLogoCss3 size={98} className="text-white" />
+                        <p className="text-2xl text-white font-recoleta-regular">CSS</p>
+                    </li>
+                    <li ref={expressRef} id={skills.express} className={`${skills.showing} ${isReactIconVisible ? skills.skills: ''}`}>
+                        <FaServer size={98} className="text-white" />
+                        <p className="text-2xl text-white font-recoleta-regular">Express</p>
+                    </li>
+                    <li ref={solidityRef} id={skills.solidity} className={`${skills.showing} ${isReactIconVisible ? skills.skills: ''}`}>
+                        <SiSolidity size={98} className="text-white" />
+                        <p className="text-2xl text-white font-recoleta-regular">Solidity</p>
+                    </li>
                 </ul>
             </main>
         </div>

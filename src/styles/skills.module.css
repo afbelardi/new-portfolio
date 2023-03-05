@@ -2,10 +2,6 @@
     position: relative;
     width: 66.666667%;
     height: 12rem;
-    --tw-bg-opacity: 1;
-    background-color: rgb(147 197 253 / var(--tw-bg-opacity));
-    border-top-left-radius: 0.5rem/* 8px */;
-    border-top-right-radius: 0.5rem/* 8px */;
     max-width: 400px;
     display: flex;
     flex-direction: column;
@@ -13,6 +9,38 @@
     padding: 12px;
     justify-content: space-around;
 }
+
+#react {
+    --tw-bg-opacity: 1;
+    background-color: rgb(147 197 253 / var(--tw-bg-opacity));
+    border-top-left-radius: 0.5rem/* 8px */;
+    border-top-right-radius: 0.5rem/* 8px */;
+
+}
+
+#javascript {
+    --tw-bg-opacity: 1;
+    background-color: rgb(96 165 250 / var(--tw-bg-opacity));
+}
+
+#css {
+    --tw-bg-opacity: 1;
+    background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+}
+
+#express {
+    --tw-bg-opacity: 1;
+    background-color: rgb(37 99 235 / var(--tw-bg-opacity));
+}
+
+#solidity {
+    --tw-bg-opacity: 1;
+    background-color: rgb(29 78 216 / var(--tw-bg-opacity));
+    border-bottom-right-radius: 0.5rem/* 8px */;
+    border-bottom-left-radius: 0.5rem/* 8px */;
+}
+
+
 
 /* .skills {
     position: relative;
