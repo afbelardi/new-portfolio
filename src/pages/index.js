@@ -36,6 +36,12 @@ export default function Home(props) {
         : ''
       }
       <Skills />
+      <div className="hidden md:bg-white md:w-11 md:bottom-0 md:right-0 md:block md:fixed md:h-72">
+
+      </div>
+      <div className="hidden md:bg-white md:w-11 md:bottom-0 md:left-0 md:block md:fixed md:h-96">
+
+      </div>
     </> 
   )
 }

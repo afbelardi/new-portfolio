@@ -12,7 +12,7 @@ export default function Navbar(props) {
                 <h1 className="-my-2 text-4xl text-white font-bebas">Belardi</h1>
                 <h1 className="text-4xl text-white font-bebas">Code</h1>
             </div>
-            <div className="z-50 flex justify-center w-1/4 mt-8" >
+            <div className="z-50 flex justify-center w-1/5 mt-8 md:hidden" >
                 <Hamburger toggled={props.isOpen} toggle={props.setIsOpen} color="white" size={40}/>
             </div>
         </div>
