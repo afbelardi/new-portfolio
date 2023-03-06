@@ -11,7 +11,7 @@ export default function AboutMe(props) {
                 </Fade>
             </div>
             <section className="flex flex-col items-center justify-center h-5/6">
-                <img src='/me.jpg' id={styles.about} className="w-full mt-5 rounded-lg min-h-5/6 max-w-400 max-h-400"></img>
+                <img src='/me.jpg' id={styles.about} className="w-full mt-5 rounded-lg min-h-5/6 max-w-500 max-h-500"></img>
                 <main className="w-5/6 mt-4 text-justify max-w-500">
                     <Fade up>
                         <p className="text-white text-md font-recoleta-light">My interest in technology began from a young age. By 13 years old, I was creating technology product review videos for my
