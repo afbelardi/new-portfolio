@@ -48,34 +48,34 @@ export default function Skills(props) {
                         <p className="text-2xl text-white font-recoleta-regular">Solidity</p>
                     </li>
                 </ul>
-                <strong className="w-full mt-5 text-2xl text-center text-blue-300 font-recoleta-bold">Other skills include:</strong>
+                <strong className="w-full mt-5 text-3xl text-center text-blue-300 font-recoleta-bold">Other skills include:</strong>
                 <div className="flex justify-center min-h-150">
-                    <ul className="flex flex-col w-1/5 min-w-85">
+                    <ul className="flex flex-col w-1/5 mt-2 min-w-85">
                         <li className="flex">
                             <BiCaretRight className="mt-0.5 text-green-300"/>
-                            <p className="text-white font-recoleta-regular">Hardhat</p>
+                            <p className="text-lg text-white font-recoleta-regular">Hardhat</p>
                         </li>
                         <li className="flex">
                             <BiCaretRight className="mt-0.5 text-green-300"/>
-                            <p className="text-white font-recoleta-regular">NestJs</p>
+                            <p className="text-lg text-white font-recoleta-regular">NestJs</p>
                         </li>
                         <li className="flex">
                             <BiCaretRight className="mt-0.5 text-green-300"/>
-                            <p className="text-white font-recoleta-regular">Tailwind CSS</p>
+                            <p className="text-lg text-white font-recoleta-regular">Tailwind CSS</p>
                         </li>
                     </ul>
-                    <ul className="flex flex-col">
+                    <ul className="flex flex-col mt-2">
                         <li className="flex">
                             <BiCaretRight className="text-green-300 mt-0.5"/>
-                            <p className="text-white font-recoleta-regular">HTML</p>
+                            <p className="text-lg text-white font-recoleta-regular">HTML</p>
                         </li>
                         <li className="flex">
                             <BiCaretRight className="text-green-300 mt-0.5"/>
-                            <p className="text-white font-recoleta-regular">MongoDB</p>
+                            <p className="text-lg text-white font-recoleta-regular">MongoDB</p>
                         </li>
                         <li className="flex">
                             <BiCaretRight className="mt-0.5 text-green-300"/>
-                            <p className="text-white font-recoleta-regular">NextJS</p>
+                            <p className="text-lg text-white font-recoleta-regular">NextJS</p>
                         </li>
                     </ul>
                 </div>
