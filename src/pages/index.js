@@ -1,4 +1,5 @@
 import { useRef, useEffect, useState } from 'react';
+import { BiCaretUp } from 'react-icons/bi';
 import Navbar from '../components/Navbar';
 import Head from 'next/head';
 import Image from 'next/image';
@@ -36,8 +37,13 @@ export default function Home(props) {
         : ''
       }
       <Skills />
-      <div className="hidden md:bg-white md:w-11 md:bottom-0 md:right-0 md:block md:fixed md:h-72">
-
+      <div className="hidden md:w-11 md:bottom-0 md:flex-col md:right-0 md:flex md:items-center md:mb-2 md:fixed md:h-72 md:">
+        <a className="text-lg text-blue-100 writing-vertical font-recoleta-light" href="mailto:afbelardicode@gmail.com">afbelardicode@gmail.com</a>
+        <BiCaretUp className="mt-2 mr-1 text-green-300"/>
+        <BiCaretUp className="mt-0.5 mr-1 text-green-300"/>
+        <BiCaretUp className="mt-0.5 mr-1 text-green-300"/>
+        <BiCaretUp className="mt-0.5 mr-1 text-green-300"/>
+        <BiCaretUp className="mt-0.5 mr-1 text-green-300"/>
       </div>
       <div className="hidden md:bg-white md:w-11 md:bottom-0 md:left-0 md:block md:fixed md:h-96">
 
