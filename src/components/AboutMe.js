@@ -30,12 +30,6 @@ export default function AboutMe(props) {
                             <a href="https://www.pullupon7th.com/" target="_blank" className="ml-1 text-indigo-400 underline">Seventh Ave</a>. I contributed to the development of microservices and completed various front and back end projects while consistently learning on the fly.
                         </p> 
                     </Fade> 
-                    <Fade up>
-                        <p className="mt-2 text-white text-md font-recoleta-light">
-                        Lastly, in addition to my interest in technology, I've been a photographer for many years and you can check out some of my more recent work 
-                            <a href="https://afbelardi-blog.herokuapp.com/" target="_blank" className="ml-1 text-indigo-400 underline">here.</a> 
-                        </p> 
-                    </Fade> 
                 </main>
             </section>     
         </div>

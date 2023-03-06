@@ -2,9 +2,10 @@ import styles from '../styles/aboutme.module.css';
 import { Fade } from 'react-reveal';
 import { useInView } from 'react-intersection-observer';
 import skills from '../styles/skills.module.css';
-import { FaReact, FaCss3, FaServer } from 'react-icons/fa';
+import { FaReact, FaServer } from 'react-icons/fa';
 import { SiJavascript, SiSolidity } from 'react-icons/si';
 import { IoLogoCss3 } from 'react-icons/io';
+
 
 export default function Skills(props) {
 

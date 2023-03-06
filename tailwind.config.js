@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+const plugin = require('tailwindcss/plugin');
 
 module.exports = {
   content: ["./src/**/*.{js,ts,jsx,tsx}"],
@@ -10,6 +11,12 @@ module.exports = {
       '600': '600px',
       '800': '800px',
       '1000': '1000px'
+    },
+    textOrientation: {
+      'upright': 'upright'
+    },
+    writingMode: {
+      'vertical': 'vertical-rl'
     },
     minWidth: {
       '50': '50px',
@@ -62,5 +69,17 @@ module.exports = {
     },
     
   },
-  plugins: [],
+  plugins: [
+    plugin(function({ addUtilities }) {
+      const newUtilities = {
+        '.text-upright': {
+          'text-orientation': 'upright'
+        },
+        '.writing-vertical': {
+          'writing-mode': 'vertical-rl'
+        }
+      }
+      addUtilities(newUtilities, ['responsive'])
+    })
+  ],
 }
