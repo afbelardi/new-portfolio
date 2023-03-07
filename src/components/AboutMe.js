@@ -3,7 +3,7 @@ import { Fade } from 'react-reveal';
 
 export default function AboutMe(props) {
     return(
-        <div className="flex flex-col w-full p-4 mt-10 min-h-400">
+        <div className="flex flex-col w-full p-4 mt-10 md:mt-48 min-h-400">
             <div className="flex w-full md:justify-center">
                 <h1 className="ml-2 text-4xl text-white font-recoleta-bold whitespace-nowrap sm:ml-5" id={styles.about}>About Me</h1>
                 <Fade right>
@@ -14,7 +14,7 @@ export default function AboutMe(props) {
                 <img src='/me.jpg' id={styles.about} className="w-full mt-5 rounded-lg min-h-5/6 max-w-500 max-h-500"></img>
                 <main className="w-5/6 mt-4 text-justify max-w-500">
                     <Fade up>
-                        <p className="text-white text-md font-recoleta-light">My interest in technology began from a young age. By 13 years old, I was creating technology product review videos for my
+                        <p  className="text-white text-md font-recoleta-light">My interest in technology began from a young age. By 13 years old, I was creating technology product review videos for my
                         YouTube channel. While partnering with major brands, I amassed a following of 7,000 subscribers and 2 million video views.
                         </p>
                     </Fade>
