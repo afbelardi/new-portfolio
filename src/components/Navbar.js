@@ -4,7 +4,11 @@ import { BiCaretRight } from 'react-icons/bi';
 
 
 
-export default function Navbar(props) {
+export default function Navbar({ scrollToRef }, props) {
+
+    const handleClick = () => {
+        scrollToRef.current.scrollIntoView({ behavior: 'smooth'});
+    }
 
     return (
         <div className="z-0 flex justify-between h-1/8">
@@ -20,7 +24,9 @@ export default function Navbar(props) {
                 <ul className="flex items-center justify-between w-full p-6 mr-2 h-1/2">
                     <li className="flex">
                         <BiCaretRight className="mt-1 text-green-300"/>
-                        <a href="#about" id={styles.scroll} className="text-lg text-white font-recoleta-regular">About</a>
+                        <button onClick={handleClick} className="text-lg text-white font-recoleta-regular">
+                           About
+                        </button>
                     </li>
                     <li className="flex">
                         <BiCaretRight className="mt-1 text-green-300"/>

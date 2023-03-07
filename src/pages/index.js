@@ -15,6 +15,7 @@ export default function Home(props) {
 
 
   const [isOpen, setIsOpen] = useState(false);
+  const aboutRef = useRef(null)
 
   return (
     <>
@@ -27,9 +28,12 @@ export default function Home(props) {
       <Navbar 
         isOpen={isOpen}
         setIsOpen={setIsOpen}
+        scrollToRef={aboutRef}
       />
       <Intro />
-      <AboutMe />
+      <AboutMe 
+      aboutRef={aboutRef}
+      />
       <Projects />
       <Sidebars />
       {isOpen ? 
