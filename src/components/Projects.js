@@ -6,21 +6,22 @@ import { BiCaretRight } from 'react-icons/bi';
 import { FiGithub } from 'react-icons/fi';
 import { ImLink } from 'react-icons/im';
 
-export default function Projects(props) {
+export default function Projects({ projectsRef }) {
 
     const { ref: myRef, inView: isElementVisible } = useInView()
     const { ref: nftRef, inView: isNftVisible } = useInView()
     const { ref: gtopRef, inView: isGtopVisible } = useInView()
+    
     return (
         <div className="flex flex-col w-full p-4 mt-10 min-h-1000">
             <div className="flex w-full md:justify-center">
-                <h1 className="ml-2 text-4xl text-white font-recoleta-bold whitespace-nowrap" id={styles.about}>Projects I've built</h1>
+                <h1 ref={projectsRef} className="ml-2 text-4xl text-white font-recoleta-bold whitespace-nowrap" id={styles.about}>Projects I've built</h1>
                 <Fade right>
                     <hr className="w-2/5 h-0 mt-5 ml-7 bg-lighter-blue" />
                 </Fade>
             </div>
             <div className="flex flex-col items-center p-1 mt-3 min-h-800">
-                <div ref={myRef} className={`${styles.notanimated} ${isElementVisible ? styles.projects: ''}`}>
+                <div className={`${styles.notanimated} ${isElementVisible ? styles.projects: ''}`}>
                         <img className="object-cover rounded-lg opacity-15 min-h-400"  src="/photoblog.png" />
                         <div className="absolute top-0 left-0 z-40 w-full h-full rounded-lg opacity-90 bg-light-navy">
                             <div className="flex flex-col items-center justify-center w-full h-full">

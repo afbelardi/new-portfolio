@@ -11,11 +11,13 @@ import Skills from '../components/Skills';
 import Sidebars from '../components/Sidebars';
 
 
-export default function Home(props) {
+export default function Home() {
 
 
   const [isOpen, setIsOpen] = useState(false);
-  const aboutRef = useRef(null)
+  const aboutRef = useRef(null);
+  const projectsRef = useRef(null);
+  const skillsRef = useRef(null);
 
   return (
     <>
@@ -29,19 +31,25 @@ export default function Home(props) {
         isOpen={isOpen}
         setIsOpen={setIsOpen}
         scrollToRef={aboutRef}
+        scrollToProjectsRef={projectsRef}
+        scrollToSkillsRef={skillsRef}
       />
       <Intro />
       <AboutMe 
       aboutRef={aboutRef}
       />
-      <Projects />
+      <Projects 
+      projectsRef={projectsRef}
+      />
       <Sidebars />
       {isOpen ? 
         <Splash 
         />
         : ''
       }
-      <Skills />
+      <Skills 
+      skillsRef={skillsRef}
+      />
     </> 
   )
 }

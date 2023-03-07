@@ -4,10 +4,18 @@ import { BiCaretRight } from 'react-icons/bi';
 
 
 
-export default function Navbar({ scrollToRef }, props) {
+export default function Navbar({ scrollToRef, scrollToProjectsRef, scrollToSkillsRef }, props) {
 
     const handleClick = () => {
         scrollToRef.current.scrollIntoView({ behavior: 'smooth'});
+    }
+
+    const handleProjectClick = () => {
+        scrollToProjectsRef.current.scrollIntoView({ behavior: 'smooth' })
+    }
+
+    const handleSkillsClick = () => {
+        scrollToSkillsRef.current.scrollIntoView({ behavior: 'smooth' })
     }
 
     return (
@@ -30,11 +38,11 @@ export default function Navbar({ scrollToRef }, props) {
                     </li>
                     <li className="flex">
                         <BiCaretRight className="mt-1 text-green-300"/>
-                        <a className="text-lg text-white font-recoleta-regular">Projects</a>
+                        <button onClick={handleProjectClick} className="text-lg text-white font-recoleta-regular">Projects</button>
                     </li>
                     <li className="flex">
                         <BiCaretRight className="mt-1 text-green-300"/>
-                        <a className="text-lg text-white font-recoleta-regular">Skills</a>
+                        <button onClick={handleSkillsClick} className="text-lg text-white font-recoleta-regular">Skills</button>
                     </li>
                 </ul>
             </div>
