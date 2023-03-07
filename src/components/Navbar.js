@@ -16,8 +16,8 @@ export default function Navbar(props) {
             <div className="z-50 flex justify-center w-1/5 mt-8 md:hidden" >
                 <Hamburger toggled={props.isOpen} toggle={props.setIsOpen} color="white" size={40}/>
             </div>
-            <div className="items-center hidden w-2/5 md:flex">
-                <ul className="flex items-center w-full h-1/2">
+            <div className="items-center hidden w-72 md:flex">
+                <ul className="flex items-center justify-between w-full p-6 mr-2 h-1/2">
                     <li className="flex">
                         <BiCaretRight className="mt-1 text-green-300"/>
                         <a href="#about" id={styles.scroll} className="text-lg text-white font-recoleta-regular">About</a>

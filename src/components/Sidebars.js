@@ -14,7 +14,7 @@ export default function Sidebars() {
     return (
         <>
             <div className="hidden md:w-13 md:bottom-0 md:flex-col md:right-0 md:flex md:items-center md:mb-2 md:mr-5 md:fixed md:h-96 md:">
-                <a className="text-lg text-blue-100 writing-vertical font-recoleta-light" href="mailto:afbelardicode@gmail.com">afbelardicode@gmail.com</a>
+                <a className="text-lg text-blue-100 writing-vertical font-recoleta-light" title="Send me an Email" href="mailto:afbelardicode@gmail.com">afbelardicode@gmail.com</a>
                 <BiCaretUp className="mt-2 mr-1 text-green-300"/>
                 <BiCaretUp className="mt-0.5 mr-1 text-green-300"/>
                 <BiCaretUp className="mt-0.5 mr-1 text-green-300"/>
