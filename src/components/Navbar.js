@@ -18,17 +18,17 @@ export default function Navbar(props) {
             </div>
             <div className="items-center hidden w-2/5 md:flex">
                 <ul className="flex items-center w-full h-1/2">
-                    <li className="flex justify-between">
-                        <BiCaretRight className="mt-1"/>
+                    <li className="flex">
+                        <BiCaretRight className="mt-1 text-green-300"/>
                         <a href="#about" id={styles.scroll} className="text-lg text-white font-recoleta-regular">About</a>
                     </li>
-                    <li className="flex justify-between">
-                        <BiCaretRight className="mt-1"/>
-                        <a>Projects</a>
+                    <li className="flex">
+                        <BiCaretRight className="mt-1 text-green-300"/>
+                        <a className="text-lg text-white font-recoleta-regular">Projects</a>
                     </li>
-                    <li className="flex justify-between">
-                        <BiCaretRight className="mt-1"/>
-                        <a>Skills</a>
+                    <li className="flex">
+                        <BiCaretRight className="mt-1 text-green-300"/>
+                        <a className="text-lg text-white font-recoleta-regular">Skills</a>
                     </li>
                 </ul>
             </div>
