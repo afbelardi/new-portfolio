@@ -1,8 +1,6 @@
 import { useRef, useEffect, useState } from 'react';
 import Navbar from '../components/Navbar';
 import Head from 'next/head';
-import Image from 'next/image';
-import styles from '../styles/home.module.css';
 import Splash from '../components/Splash';
 import AboutMe from '../components/AboutMe';
 import Intro from '../components/Intro';
