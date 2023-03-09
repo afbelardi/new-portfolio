@@ -55,10 +55,10 @@ export default function Projects({ projectsRef }) {
                                 </ul>
                             </footer>
                             <div className="flex justify-start w-full pb-2 pl-6 mb-2">
-                                <a href="https://github.com/afbelardi/photo-blog-frontend" target="_blank">
+                                <a href="https://github.com/afbelardi/photo-blog-frontend" target="_blank" rel="noreferrer">
                                     <FiGithub size={28} className="mt-5 text-white"/>
                                 </a>
-                                <a href="https://afbelardi-blog.herokuapp.com/" target="_blank">
+                                <a href="https://afbelardi-blog.herokuapp.com/" target="_blank" rel="noreferrer">
                                     <ImLink size={28} className="mt-5 ml-3 text-white" />
                                 </a>
                             </div>
@@ -95,10 +95,10 @@ export default function Projects({ projectsRef }) {
                                 </ul>
                             </footer>
                             <div className="flex justify-start w-full pb-2 pl-6 mb-2">
-                                <a href="https://github.com/afbelardi/mint-photo-dapp" target="_blank">
+                                <a href="https://github.com/afbelardi/mint-photo-dapp" target="_blank" rel="noreferrer">
                                     <FiGithub size={28} className="mt-5 text-white"/>
                                 </a>
-                                <a href="https://test-mint-site.herokuapp.com/" target="_blank">
+                                <a href="https://test-mint-site.herokuapp.com/" target="_blank" rel="noreferrer">
                                     <ImLink size={28} className="mt-5 ml-3 text-white" />
                                 </a>
                             </div>
@@ -131,10 +131,10 @@ export default function Projects({ projectsRef }) {
                                 </ul>
                             </footer>
                             <div className="flex justify-start w-full pl-6 mb-2 min-w-200">
-                                <a href="https://github.com/afbelardi/photo-blog-frontend" target="_blank">
+                                <a href="https://github.com/afbelardi/photo-blog-frontend" target="_blank" rel="noreferrer">
                                     <FiGithub size={28} className="relative mt-5 text-white"/>
                                 </a>
-                                <a href="https://afbelardi-blog.herokuapp.com/" target="_blank">
+                                <a href="https://afbelardi-blog.herokuapp.com/" target="_blank" rel="noreferrer">
                                     <ImLink size={28} className="relative mt-5 ml-3 text-white" />
                                 </a>
                             </div>
