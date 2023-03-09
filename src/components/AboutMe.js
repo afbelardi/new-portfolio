@@ -9,14 +9,15 @@ export default function AboutMe({ aboutRef }) {
 
     return(
         <div className="flex flex-col w-full p-4 mt-10 md:mt-48 min-h-400">
-            <div className="flex w-full md:justify-center">
+            <div className="flex w-full md:ml-24">
                 <h1 ref={aboutRef} className="ml-2 text-4xl text-white font-recoleta-bold whitespace-nowrap sm:ml-5" id={styles.about}>About Me</h1>
                 <Fade right>
-                    <hr className="w-2/5 h-0 mt-5 bg-lighter-blue ml-7" />
+                    <hr className="w-2/5 h-0 mt-5 lg:w-3/5 bg-lighter-blue ml-7" />
                 </Fade>
             </div>
             <section className="flex flex-col items-center justify-center h-5/6">
-                <img src='/me.jpg' id={styles.about} className="w-full mt-5 rounded-lg min-h-5/6 max-w-500 max-h-500"></img>
+                <img src='/me.jpg' id={styles.about} className="w-full mt-5 rounded-lg lg:hidden min-h-5/6 max-w-500 max-h-500"></img>
+                <img src='/me2.jpg' id={styles.about} className="hidden mt-5 rounded-lg lg:w-3/5 lg:flex min-h-5/6 "></img>
                 <Element name="about" className="w-5/6 mt-4 text-justify max-w-500">
                     <Fade up>
                         <p  className="text-white text-md font-recoleta-light">My interest in technology began from a young age. By 13 years old, I was creating technology product review videos for my
