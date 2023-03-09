@@ -6,7 +6,7 @@ export default function Intro() {
             <section className="flex flex-col w-full md:w-5/6 md:ml-28 lg:ml-32">
                 <h1 className="p-2 ml-8 text-lg text-white md:text-2xl lg:text-3xl font-recoleta-regular">Hi, welcome to my portfolio.</h1>
                 <h1 className="mb-2 ml-10 text-2xl text-blue-200 md:text-4xl lg:text-5xl font-recoleta-bold">My name is Alex Belardi.</h1>
-                <h1 className="w-4/5 ml-10 text-2xl text-blue-300 md:text-4xl lg:text-5xl font-recoleta-bold">I'm passionate about turning cool and innovative ideas into web apps.</h1>
+                <h1 className="w-4/5 ml-10 text-2xl text-blue-300 md:text-4xl lg:text-5xl font-recoleta-bold">I&apos;m passionate about turning cool and innovative ideas into web apps.</h1>
             </section>
         </div>
     )
