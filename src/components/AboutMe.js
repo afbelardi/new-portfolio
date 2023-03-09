@@ -18,7 +18,7 @@ export default function AboutMe({ aboutRef }) {
             <section className="flex flex-col items-center justify-center h-5/6">
                 <img src='/me.jpg' id={styles.about} className="w-full mt-5 rounded-lg lg:hidden min-h-5/6 max-w-500 max-h-500"></img>
                 <img src='/me2.jpg' id={styles.about} className="hidden mt-5 rounded-lg lg:w-3/5 lg:flex min-h-5/6 "></img>
-                <Element name="about" className="w-5/6 mt-4 text-justify max-w-500">
+                <div className="w-5/6 mt-4 text-justify max-w-500">
                     <Fade up>
                         <p  className="text-white text-md font-recoleta-light">My interest in technology began from a young age. By 13 years old, I was creating technology product review videos for my
                         YouTube channel. While partnering with major brands, I amassed a following of 7,000 subscribers and 2 million video views.
@@ -36,7 +36,7 @@ export default function AboutMe({ aboutRef }) {
                             <a href="https://www.pullupon7th.com/" target="_blank" className="ml-1 text-indigo-400 underline">Seventh Ave</a>. I contributed to the development of microservices and completed various front and back end projects while consistently learning on the fly.
                         </p> 
                     </Fade> 
-                </Element>
+                </div>
             </section>     
         </div>
     )
