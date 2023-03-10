@@ -19,7 +19,7 @@ export default function Skills({ skillsRef }) {
 
     return (
         <div className="flex flex-col w-full p-4 mt-10 min-h-400">
-            <div className="flex w-full md:justify-center">
+            <div className="flex w-full overflow-x-hidden md:justify-center">
                 <h1 ref={skillsRef} className="ml-2 text-4xl text-white font-recoleta-bold whitespace-nowrap" id={styles.about}>My skills</h1>
                 <Fade right>
                     <hr className="w-2/5 h-0 mt-5 bg-lighter-blue ml-7" />
