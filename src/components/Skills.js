@@ -64,7 +64,7 @@ export default function Skills({ skillsRef }) {
                             <p className="text-lg text-white font-recoleta-regular">Tailwind CSS</p>
                         </li>
                     </ul>
-                    <ul className="flex flex-col mt-2">
+                    <ul className="flex flex-col mt-2 ml-3">
                         <li className="flex">
                             <BiCaretRight className="text-green-300 mt-0.5"/>
                             <p className="text-lg text-white font-recoleta-regular">HTML</p>
