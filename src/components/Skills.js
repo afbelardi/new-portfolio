@@ -57,7 +57,7 @@ export default function Skills({ skillsRef }) {
                         </li>
                         <li className="flex">
                             <BiCaretRight className="mt-0.5 text-green-300"/>
-                            <p className="text-lg text-white font-recoleta-regular">NestJs</p>
+                            <p className="text-lg text-white font-recoleta-regular">NestJS</p>
                         </li>
                         <li className="flex">
                             <BiCaretRight className="mt-0.5 text-green-300"/>
@@ -75,7 +75,11 @@ export default function Skills({ skillsRef }) {
                         </li>
                         <li className="flex">
                             <BiCaretRight className="mt-0.5 text-green-300"/>
-                            <p className="text-lg text-white font-recoleta-regular">NextJS</p>
+                            <p className="text-lg text-white font-recoleta-regular">Next.js</p>
+                        </li>
+                        <li className="flex">
+                            <BiCaretRight className="mt-0.5 text-green-300"/>
+                            <p className="text-lg text-white font-recoleta-regular">Ethers.js</p>
                         </li>
                     </ul>
                 </div>

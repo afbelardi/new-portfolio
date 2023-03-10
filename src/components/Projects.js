@@ -42,7 +42,7 @@ export default function Projects({ projectsRef }) {
                                     </li>
                                     <li className="flex mr-2">
                                         <BiCaretRight className="mt-0.5 text-green-300"/>
-                                        <p>NestJs</p>
+                                        <p>NestJS</p>
                                     </li>
                                     <li className="flex mr-2">
                                         <BiCaretRight className="mt-0.5 text-green-300"/>
@@ -86,6 +86,10 @@ export default function Projects({ projectsRef }) {
                                     </li>
                                     <li className="flex mr-2">
                                         <BiCaretRight className="mt-0.5 text-green-300"/>
+                                        <p>Ethers.js</p>
+                                    </li>
+                                    <li className="flex mr-2">
+                                        <BiCaretRight className="mt-0.5 text-green-300"/>
                                         <p>HardHat</p>
                                     </li>
                                     <li className="flex mr-2">
@@ -126,7 +130,7 @@ export default function Projects({ projectsRef }) {
                                     </li>
                                     <li className="flex mr-2">
                                         <BiCaretRight className="mt-0.5 text-green-300"/>
-                                        <p>NextJS</p>
+                                        <p>Next.js</p>
                                     </li>
                                 </ul>
                             </footer>
