@@ -4,8 +4,7 @@ import { BiCaretRight } from 'react-icons/bi';
 
 
 
-export default function Navbar({ scrollToRef, scrollToProjectsRef, scrollToSkillsRef }, props) {
-
+export default function Navbar({ scrollToRef, scrollToProjectsRef, scrollToSkillsRef, isOpen, setIsOpen })  {
     const handleClick = () => {
         scrollToRef.current.scrollIntoView({ behavior: 'smooth'});
     }
@@ -26,7 +25,7 @@ export default function Navbar({ scrollToRef, scrollToProjectsRef, scrollToSkill
                 <h1 className="text-4xl text-white md:text-5xl font-bebas">Code</h1>
             </div>
             <div className="z-50 flex justify-center w-1/5 mt-8 md:hidden" >
-                <Hamburger toggled={props.isOpen} toggle={props.setIsOpen} color="white" size={40}/>
+                <Hamburger toggled={isOpen} toggle={setIsOpen} color="white" size={40}/>
             </div>
             <div className="items-center hidden mr-2 w-72 md:flex">
                 <ul className="flex items-center justify-between w-full p-6 mr-2 h-1/2">
