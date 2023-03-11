@@ -48,38 +48,38 @@ export default function Skills({ skillsRef }) {
                         <p className="text-2xl text-white font-recoleta-regular">Solidity</p>
                     </li>
                 </ul>
-                <strong className="w-full mt-5 text-3xl text-center text-blue-300 font-recoleta-bold">Other skills include:</strong>
+                <strong className="w-full mt-5 text-3xl text-center text-blue-300 lg:text-4xl font-recoleta-bold">Other skills include:</strong>
                 <div className="flex justify-center min-h-150">
-                    <ul className="flex flex-col w-1/5 mt-2 min-w-100">
+                    <ul className="flex flex-col mt-2 min-w-100">
                         <li className="flex">
-                            <BiCaretRight className="mt-0.5 text-green-300"/>
-                            <p className="text-lg text-white font-recoleta-regular">Hardhat</p>
+                            <BiCaretRight className="mt-1 text-green-300"/>
+                            <p className="text-lg text-white lg:text-xl font-recoleta-regular">Hardhat</p>
                         </li>
                         <li className="flex">
-                            <BiCaretRight className="mt-0.5 text-green-300"/>
-                            <p className="text-lg text-white font-recoleta-regular">NestJS</p>
+                            <BiCaretRight className="mt-1 text-green-300"/>
+                            <p className="text-lg text-white lg:text-xl font-recoleta-regular">NestJS</p>
                         </li>
                         <li className="flex">
-                            <BiCaretRight className="mt-0.5 text-green-300"/>
-                            <p className="text-lg text-white font-recoleta-regular">Tailwind CSS</p>
+                            <BiCaretRight className="mt-1 text-green-300"/>
+                            <p className="text-lg text-white lg:text-xl font-recoleta-regular">Tailwind CSS</p>
                         </li>
                     </ul>
-                    <ul className="flex flex-col mt-2 ml-3 min-w-85">
+                    <ul className="flex flex-col mt-2 ml-3 ">
                         <li className="flex">
-                            <BiCaretRight className="text-green-300 mt-0.5"/>
-                            <p className="text-lg text-white font-recoleta-regular">HTML</p>
+                            <BiCaretRight className="mt-1 text-green-300"/>
+                            <p className="text-lg text-white lg:text-xl font-recoleta-regular">HTML</p>
                         </li>
                         <li className="flex">
-                            <BiCaretRight className="text-green-300 mt-0.5"/>
-                            <p className="text-lg text-white font-recoleta-regular">MongoDB</p>
+                            <BiCaretRight className="mt-1 text-green-300"/>
+                            <p className="text-lg text-white lg:text-xl font-recoleta-regular">MongoDB</p>
                         </li>
                         <li className="flex">
-                            <BiCaretRight className="mt-0.5 text-green-300"/>
-                            <p className="text-lg text-white font-recoleta-regular">Next.js</p>
+                            <BiCaretRight className="mt-1 text-green-300"/>
+                            <p className="text-lg text-white lg:text-xl font-recoleta-regular">Next.js</p>
                         </li>
                         <li className="flex">
-                            <BiCaretRight className="mt-0.5 text-green-300"/>
-                            <p className="text-lg text-white font-recoleta-regular">Ethers.js</p>
+                            <BiCaretRight className="mt-1 text-green-300"/>
+                            <p className="text-lg text-white lg:text-xl font-recoleta-regular">Ethers.js</p>
                         </li>
                     </ul>
                 </div>
