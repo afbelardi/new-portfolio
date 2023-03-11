@@ -113,7 +113,7 @@ export default function Projects({ projectsRef }) {
                         <img className="object-cover rounded-lg opacity-15 min-h-400"  src="/gtop.png" />
                         <div className="absolute top-0 left-0 z-40 w-full h-full bg-light-navy opacity-90">
                             <div className="flex flex-col items-center justify-center w-full h-full">
-                                <section className="flex justify-between w-full p-3">
+                                <section className="flex justify-between w-5/6 p-3">
                                     <VscFolderOpened size={40} className="text-blue-300 min-w-40"/>
                                     <h1 className="mt-2 text-2xl text-blue-400 min-w-215 font-recoleta-bold font-outline">NFT Project Promo</h1>
                                 </section>

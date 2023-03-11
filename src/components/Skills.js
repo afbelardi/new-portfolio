@@ -50,7 +50,7 @@ export default function Skills({ skillsRef }) {
                 </ul>
                 <strong className="w-full mt-5 text-3xl text-center text-blue-300 font-recoleta-bold">Other skills include:</strong>
                 <div className="flex justify-center min-h-150">
-                    <ul className="flex flex-col w-1/5 mt-2 min-w-85">
+                    <ul className="flex flex-col w-1/5 mt-2 min-w-100">
                         <li className="flex">
                             <BiCaretRight className="mt-0.5 text-green-300"/>
                             <p className="text-lg text-white font-recoleta-regular">Hardhat</p>
