@@ -9,10 +9,10 @@ export default function AboutMe({ aboutRef }) {
 
     return(
         <div className="flex flex-col w-full p-4 mt-10 md:mt-48 min-h-400">
-            <div className="flex w-full overflow-x-hidden md:ml-24">
+            <div className="flex w-full overflow-x-hidden md:justify-center">
                 <h1 ref={aboutRef} className="ml-2 text-4xl text-white font-recoleta-bold whitespace-nowrap sm:ml-5" id={styles.about}>About Me</h1>
                 <Fade right>
-                    <hr className="w-2/5 h-0 mt-5 lg:w-3/5 bg-lighter-blue ml-7" />
+                    <hr className="w-2/5 h-0 mt-5 lg:w-1/2 bg-lighter-blue ml-7" />
                 </Fade>
             </div>
             <section className="flex flex-col items-center justify-center h-5/6">
@@ -36,6 +36,11 @@ export default function AboutMe({ aboutRef }) {
                             <a href="https://www.pullupon7th.com/" target="_blank" rel="noreferrer" className="ml-1 text-indigo-400 underline">Seventh Ave</a>. I contributed to the development of microservices and completed various front and back end projects while consistently learning on the fly.
                         </p> 
                     </Fade> 
+                   {/* 
+                  //  CLOSING STATEMENT GOES HERE //
+                   <Fade up>
+                        <h1 className="mt-2 text-xl text-blue-300 font-recoleta-bold"></h1> 
+                   </Fade>  */}
                 </div>
             </section>     
         </div>
