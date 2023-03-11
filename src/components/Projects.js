@@ -114,8 +114,8 @@ export default function Projects({ projectsRef }) {
                         <div className="absolute top-0 left-0 z-40 w-full h-full bg-light-navy opacity-90">
                             <div className="flex flex-col items-center justify-center w-full h-full">
                                 <section className="flex justify-between w-full p-3">
-                                    <VscFolderOpened size={40} className="text-blue-300"/>
-                                    <h1 className="mt-2 text-2xl text-blue-400 font-recoleta-bold font-outline">NFT Project Promo</h1>
+                                    <VscFolderOpened size={40} className="text-blue-300 min-w-40"/>
+                                    <h1 className="mt-2 text-2xl text-blue-400 min-w-215 font-recoleta-bold font-outline">NFT Project Promo</h1>
                                 </section>
                                 <section className='w-full p-4 mt-5 text-center text-white font-recoleta-regular'>
                                     <p>A Gift to Our People - An NFT project that is the brainchild of Seventh Ave. While interning at the company, I assisted on building

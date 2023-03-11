@@ -21,10 +21,13 @@ module.exports = {
       'vertical': 'vertical-rl'
     },
     minWidth: {
+      '40': '40px',
       '50': '50px',
       '85': '85px',
       '100': '150px',
-      '200': '200px'
+      '200': '200px',
+      '215': '215px',
+      '300': '300px'
     },
     maxHeight: {
       '30%': '30%',
