@@ -10,6 +10,8 @@
     justify-content: space-around;
 }
 
+
+
 .showing:nth-child(1) {
     --tw-bg-opacity: 1;
     background-color: rgb(147 197 253 / var(--tw-bg-opacity));
@@ -52,6 +54,24 @@
     animation: enterLeft 1s ease-in;
 }
 
+@media screen and (min-width: 1280px) {
+    .showing {
+        width: 15%;
+    }
+    .showing:nth-child(1) {
+        border-top-left-radius: 0.5rem;
+        border-bottom-left-radius: 0.5rem;
+        border-top-right-radius: 0px;
+    }
+    .showing:nth-child(5) {
+        --tw-bg-opacity: 1;
+        background-color: rgb(29 78 216 / var(--tw-bg-opacity));
+        border-bottom-right-radius: 0.5rem/* 8px */;
+        border-bottom-left-radius: 0rem/* 8px */;
+        border-top-right-radius: 0.5rem;
+    }
+}
+
 @keyframes enterLeft {
     0% {
         transform: translateX(50%);
@@ -67,6 +87,3 @@
     }
 }
 
-.ticker {
-    width: 100%;
-}

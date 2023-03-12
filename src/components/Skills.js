@@ -26,7 +26,7 @@ export default function Skills({ skillsRef }) {
                 </Fade>
             </div>
             <main className="flex flex-col w-full mt-7">
-                <ul className="flex flex-col items-center w-full overflow-x-hidden">
+                <ul className="flex flex-col items-center w-full overflow-x-hidden xl:justify-center xl:flex-row">
                     <li ref={reactRef} className={`${skills.showing} ${isReactIconVisible ? skills.skillsLeft: ''}`}>
                         <FaReact size={98} className="text-white" />
                         <p className="text-2xl text-white font-recoleta-regular">React</p>
