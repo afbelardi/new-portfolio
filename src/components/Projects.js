@@ -21,7 +21,7 @@ export default function Projects({ projectsRef }) {
                 </Fade>
             </div>
             <div className="flex flex-col items-center p-1 mt-3 min-h-800">
-                <div className={`${styles.notanimated} ${isElementVisible ? styles.projects: ''}`}>
+                <div ref={myRef} className={`${styles.notanimated} ${isElementVisible ? styles.projects: ''}`}>
                         <img className="object-cover rounded-lg opacity-15 min-h-400"  src="/photoblog.png" />
                         <div className="absolute top-0 z-40 w-full h-full rounded-lg opacity-90 bg-light-navy">
                             <div className="flex flex-col items-center justify-center w-full h-full">

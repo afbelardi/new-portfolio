@@ -9,7 +9,7 @@ export default function AboutMe({ aboutRef }) {
 
     return(
         <div className="flex flex-col w-full p-4 mt-10 md:mt-48 min-h-400">
-            <div className="flex w-full overflow-x-hidden md:justify-center">
+            <div className="flex w-full overflow-x-hidden lg:mb-5 md:justify-center">
                 <h1 ref={aboutRef} className="ml-2 text-4xl text-white font-recoleta-bold whitespace-nowrap sm:ml-5" id={styles.about}>About Me</h1>
                 <Fade right>
                     <hr className="w-2/5 h-0 mt-5 lg:w-1/2 bg-lighter-blue ml-7" />

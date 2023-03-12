@@ -3,12 +3,14 @@
     margin-top: 2.5rem;
     max-width: 600px;
     min-width: 350px;
+
 }
 
 .projects {
     position: relative;
     animation: show 1s ease-in;
 }
+
 
 @keyframes show {
       0% {

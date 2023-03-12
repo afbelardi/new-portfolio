@@ -9,6 +9,7 @@ import Skills from '../components/Skills';
 import Sidebars from '../components/Sidebars';
 
 
+
 export default function Home() {
 
 
