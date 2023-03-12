@@ -29,6 +29,9 @@ module.exports = {
       '215': '215px',
       '300': '300px'
     },
+    marginRight: {
+      '300': '300px'
+    },
     maxHeight: {
       '30%': '30%',
       '40%': '40%',
