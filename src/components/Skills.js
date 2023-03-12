@@ -25,7 +25,7 @@ export default function Skills({ skillsRef }) {
                     <hr className="w-2/5 h-0 mt-5 bg-lighter-blue ml-7" />
                 </Fade>
             </div>
-            <main className="flex flex-col w-full mt-7">
+            <main className="flex flex-col w-full mt-7 xl:mt-16">
                 <ul className="flex flex-col items-center w-full overflow-x-hidden xl:justify-center xl:flex-row">
                     <li ref={reactRef} className={`${skills.showing} ${isReactIconVisible ? skills.skillsLeft: ''}`}>
                         <FaReact size={98} className="text-white" />
@@ -48,7 +48,7 @@ export default function Skills({ skillsRef }) {
                         <p className="text-2xl text-white font-recoleta-regular">Solidity</p>
                     </li>
                 </ul>
-                <strong className="w-full mt-5 text-3xl text-center text-blue-300 lg:text-4xl font-recoleta-bold">Other skills include:</strong>
+                <strong className="w-full mt-5 text-3xl text-center text-blue-300 lg:text-4xl xl:mt-16 font-recoleta-bold">Other skills include:</strong>
                 <div className="flex justify-center min-h-150">
                     <ul className="flex flex-col mt-2 min-w-100">
                         <li className="flex">
