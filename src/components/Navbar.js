@@ -27,7 +27,7 @@ export default function Navbar({ scrollToRef, scrollToProjectsRef, scrollToSkill
             <div className="z-50 flex justify-center w-1/5 mt-8 md:hidden" >
                 <Hamburger toggled={isOpen} toggle={setIsOpen} color="white" size={40}/>
             </div>
-            <div className="items-center hidden mr-2 w-72 md:flex">
+            <div className="items-center hidden mr-2 xl:mr-10 w-72 md:flex">
                 <ul className="flex items-center justify-between w-full p-6 mr-2 h-1/2">
                     <li className="flex">
                         <BiCaretRight className="mt-1 text-green-300"/>
