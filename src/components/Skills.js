@@ -63,6 +63,10 @@ export default function Skills({ skillsRef }) {
                             <BiCaretRight className="mt-1 text-green-300"/>
                             <p className="text-lg text-white lg:text-xl font-recoleta-regular">Tailwind CSS</p>
                         </li>
+                        <li className="flex">
+                            <BiCaretRight className="mt-1 text-green-300"/>
+                            <p className="text-lg text-white lg:text-xl font-recoleta-regular">React Native</p>
+                        </li>
                     </ul>
                     <ul className="flex flex-col mt-2 ml-3 ">
                         <li className="flex">
