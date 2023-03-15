@@ -20,7 +20,8 @@ export default function Projects({ projectsRef }) {
                     <hr className="w-2/5 h-0 mt-5 ml-7 bg-lighter-blue" />
                 </Fade>
             </div>
-            <div className="flex flex-col items-center p-1 mt-3 min-h-800">
+            <div className="flex justify-center w-full">
+            <div id={styles.grid} className="flex flex-col items-center p-1 mt-3 min-h-800">
                 <div ref={myRef} className={`${styles.notanimated} ${isElementVisible ? styles.projects: ''}`}>
                         <img className="object-cover rounded-lg opacity-15 min-h-400"  src="/photoblog.png" />
                         <div className="absolute top-0 z-40 w-full h-full rounded-lg opacity-90 bg-light-navy">
@@ -109,7 +110,7 @@ export default function Projects({ projectsRef }) {
                             </div>
                         </div>     
                 </div>
-                <div ref={gtopRef} className={`${styles.notanimated} ${isGtopVisible ? styles.projects: ''}`}>
+                <div ref={gtopRef} id={styles.thirdgrid} className={`${styles.notanimated} ${isGtopVisible ? styles.projects: ''}`}>
                         <img className="object-cover rounded-lg opacity-15 min-h-400"  src="/gtop.png" />
                         <div className="absolute top-0 z-40 w-full h-full bg-light-navy opacity-90">
                             <div className="flex flex-col items-center justify-center w-full h-full">
@@ -145,6 +146,7 @@ export default function Projects({ projectsRef }) {
                             </div>
                         </div>
                 </div>
+            </div>
             </div>
         </div>
     )
