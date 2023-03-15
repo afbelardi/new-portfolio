@@ -67,7 +67,7 @@ export default function Projects({ projectsRef }) {
                 </div>
                 <div ref={nftRef} className={`${styles.notanimated} ${isNftVisible ? styles.projects: ''}`}>
                         <img className="object-cover rounded-lg opacity-15 min-h-400"  src="/photomint.png" />
-                        <div className="absolute top-0 z-40 w-full h-full opacity-90 bg-light-navy">
+                        <div className="absolute top-0 z-40 w-full h-full rounded-lg opacity-90 bg-light-navy">
                             <div className="flex flex-col items-center justify-center w-full h-full">
                                 <section className="flex justify-between w-5/6 p-3 ">
                                     <VscFolderOpened size={40} className="text-blue-300" />
@@ -111,7 +111,7 @@ export default function Projects({ projectsRef }) {
                 </div>
                 <div ref={gtopRef} className={`${styles.notanimated} ${isGtopVisible ? styles.projects: ''}`}>
                         <img className="object-cover rounded-lg opacity-15 min-h-400"  src="/gtop.png" />
-                        <div className="absolute top-0 z-40 w-full h-full bg-light-navy opacity-90">
+                        <div className="absolute top-0 z-40 w-full h-full rounded-lg bg-light-navy opacity-90">
                             <div className="flex flex-col items-center justify-center w-full h-full">
                                 <section className="flex justify-between w-5/6 p-3">
                                     <VscFolderOpened size={40} className="text-blue-300 min-w-40"/>
