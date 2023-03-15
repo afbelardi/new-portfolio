@@ -1,11 +1,12 @@
 import styles from '../styles/splash.module.css';
 import Fade from 'react-reveal/Fade';
-import { FaGithub, FaTwitter, FaLinkedin, FaInstagram } from 'react-icons/fa'
+import { FaGithub, FaTwitter, FaLinkedin, FaInstagram } from 'react-icons/fa';
+import { GoGist } from 'react-icons/go';
 
 export default function Splash (props) {
     return (
         <Fade bottom>
-            <div className="fixed top-0 z-40 flex flex-col w-screen h-full bg-light-navy">
+            <div className="fixed top-0 z-40 flex flex-col w-screen h-full md:hidden bg-light-navy">
                 <section className="flex flex-col items-baseline justify-end w-2/3 mt-36 ml-11 h-1/3">
                     <Fade left delay={400}>
                         <p className="text-3xl font-bold text-blue-100 font-recoleta-black">Alex Belardi</p>
@@ -24,8 +25,8 @@ export default function Splash (props) {
                         <a href="https://www.twitter.com/afbelardi" target="_blank" rel="noreferrer" className="flex items-center justify-center bg-gray-200 rounded-3xl h-11 w-11">
                             <FaTwitter size={28} /> 
                         </a>
-                        <a href="https://www.instagram.com/afbelardi" target="_blank" rel="noreferrer" className="flex items-center justify-center bg-gray-200 rounded-3xl h-11 w-11">
-                            <FaInstagram size={28} />
+                        <a href="https://gist.github.com/afbelardi" target="_blank" rel="noreferrer" className="flex items-center justify-center bg-gray-200 rounded-3xl h-11 w-11">
+                            <GoGist size={28} />
                         </a>
                     </section>
                 </Fade>
