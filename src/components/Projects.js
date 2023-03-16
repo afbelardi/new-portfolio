@@ -119,7 +119,7 @@ export default function Projects({ projectsRef }) {
                                     <h1 className="mt-2 text-2xl text-blue-400 min-w-215 font-recoleta-bold font-outline">NFT Project Promo</h1>
                                 </section>
                                 <section className='w-full p-4 mt-5 text-center text-white font-recoleta-regular'>
-                                    <p>A Gift to Our People - An NFT project that is the brainchild of Seventh Ave. While interning at the company, I assisted on building
+                                    <p>A Gift to Our People - An NFT project that is the brainchild of 7th Ave. While interning at the company, I built
                                         this site that promoted and provided information for the project.
                                     </p>
                                 </section>
@@ -136,10 +136,7 @@ export default function Projects({ projectsRef }) {
                                 </ul>
                             </footer>
                             <div className="flex justify-start w-full pl-6 mb-2 min-w-200">
-                                <a href="https://github.com/afbelardi/photo-blog-frontend" target="_blank" rel="noreferrer">
-                                    <FiGithub size={28} className="relative mt-5 text-white"/>
-                                </a>
-                                <a href="https://afbelardi-blog.herokuapp.com/" target="_blank" rel="noreferrer">
+                                <a href="https://lucky-bonus-8482.on.fleek.co/" target="_blank" rel="noreferrer">
                                     <ImLink size={28} className="relative mt-5 ml-3 text-white" />
                                 </a>
                             </div>
