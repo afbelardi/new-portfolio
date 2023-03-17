@@ -1,0 +1,9 @@
+@media screen and (max-height: 625px) {
+    #sidebar {
+        display: none;
+    }
+    #sidebar2 {
+        display: none;
+    }
+}
+

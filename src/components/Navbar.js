@@ -18,8 +18,8 @@ export default function Navbar({ scrollToRef, scrollToProjectsRef, scrollToSkill
     }
 
     return (
-        <div className="z-0 flex justify-between h-1/8">
-            <div className='z-40 p-5 md:p-8 xl:p-10'>
+        <div className="z-50 flex justify-between h-1/8">
+            <div className='p-5 md:p-8 xl:p-10'>
                 <h1 className="-my-2 text-4xl text-white xl:text-6xl md:text-5xl font-bebas">Alex</h1>
                 <h1 className="-my-2 text-4xl text-white xl:text-6xl md:text-5xl font-bebas">Belardi</h1>
                 <h1 className="-my-2 text-4xl text-white xl:text-6xl md:text-5xl font-bebas">Code</h1>
@@ -30,7 +30,7 @@ export default function Navbar({ scrollToRef, scrollToProjectsRef, scrollToSkill
             <div className="items-center hidden mr-2 xl:mr-10 w-72 md:flex">
                 <ul className="flex items-center justify-between w-full p-6 mr-2 h-1/2">
                     <li className="flex">
-                        <BiCaretRight className="mt-1 text-green-300"/>
+                        <BiCaretRight className="z-50 mt-1 text-green-300"/>
                         <button onClick={handleClick} className="text-lg text-white font-recoleta-regular">
                            About
                         </button>

@@ -6,6 +6,7 @@ module.exports = {
   theme: {
     minHeight: {
       '50': '50px',
+      '100': '150px',
       '150': '150px',
       '200': '200px',
       '300': '300px',
