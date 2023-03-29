@@ -32,7 +32,7 @@ export default function Splash (props) {
                 </Fade>
                 <Fade bottom delay={500}>
                     <div className="flex justify-center ">
-                        <a href="/AlexBelardiResume.pdf" target="_blank" rel="noreferrer" class="font-recoleta-light text-lg flex justify-center bg-blue-500 w-32 h-12 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
+                        <a href="/Resume.pdf" target="_blank" rel="noreferrer" class="font-recoleta-light text-lg flex justify-center bg-blue-500 w-32 h-12 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
                                 Résumé
                         </a>
                     </div>
