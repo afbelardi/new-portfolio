@@ -85,6 +85,10 @@ export default function Skills({ skillsRef }) {
                             <BiCaretRight className="mt-1 text-green-300"/>
                             <p className="text-lg text-white lg:text-xl font-recoleta-regular">Ethers.js</p>
                         </li>
+                        <li className="flex">
+                            <BiCaretRight className="mt-1 text-green-300"/>
+                            <p className="text-lg text-white lg:text-xl font-recoleta-regular">Puppeteer</p>
+                        </li>
                     </ul>
                 </div>
             </main>
