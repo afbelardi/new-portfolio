@@ -12,6 +12,7 @@ export default function Projects({ projectsRef }) {
     const { ref: nftRef, inView: isNftVisible } = useInView();
     const { ref: gtopRef, inView: isGtopVisible } = useInView();
     const { ref: npRef, inView: isNpVisible } = useInView();
+    const { ref: npBackendRef, inView: isBackendVisible } = useInView();
     
     return (
         <div className="flex flex-col w-full p-4 mt-10 min-h-1000">
@@ -31,7 +32,7 @@ export default function Projects({ projectsRef }) {
                                     <VscFolderOpened size={40} className="ml-2 text-blue-300 "/>
                                     <h1 className="mt-2 text-2xl text-blue-400 font-recoleta-bold font-outline">Photo Blog</h1>
                                 </section>
-                                <section className='w-full p-3 mt-5 text-center text-white h-36 text-md font-recoleta-regular'>
+                                <section className='w-full p-3 mt-5 text-center text-white md:-mb-6 h-36 text-md font-recoleta-regular'>
                                     <p>A project built as a Tumblr-esque design to showcase my more recent photography work.
                                         The site features a light and dark mode option as well as the ability to click on each photo and make them larger.
                                     </p>
@@ -75,7 +76,7 @@ export default function Projects({ projectsRef }) {
                                     <VscFolderOpened size={40} className="text-blue-300" />
                                     <h1 className="mt-2 text-2xl text-blue-400 font-recoleta-bold font-outline">NFT Mint Site</h1>
                                 </section>
-                                <section className='w-full p-4 mt-5 text-center text-white h-36 font-recoleta-regular'>
+                                <section className='w-full p-4 mt-5 mb-4 text-center text-white md:-mb-6 h-36 font-recoleta-regular'>
                                         <p>Created as a site to mint a selection of my photos on the Goerli testnet. The user has the ability to connect their wallet, mint up to 
                                             3 photos with a smart contract I created, view the transactions on Etherscan and see the collection on OpenSea.
                                         </p>
@@ -119,7 +120,7 @@ export default function Projects({ projectsRef }) {
                                     <VscFolderOpened size={40} className="text-blue-300 min-w-40"/>
                                     <h1 className="mt-2 text-2xl text-blue-400 min-w-215 font-recoleta-bold font-outline">NFT Project Promo</h1>
                                 </section>
-                                <section className='w-full p-4 mt-5 text-center text-white h-36 font-recoleta-regular'>
+                                <section className='w-full p-4 mt-5 text-center text-white md:-mb-6 h-36 font-recoleta-regular'>
                                     <p>A Gift to Our People - An NFT project that is the brainchild of 7th Ave. While interning at the company, I built
                                         this site that promoted and provided information for the project.
                                     </p>
@@ -149,10 +150,10 @@ export default function Projects({ projectsRef }) {
                         <div className="absolute top-0 z-40 w-full h-full rounded-lg opacity-90 bg-light-navy">
                             <div className="flex flex-col items-center justify-center w-full h-full">
                                 <section className="flex justify-between w-5/6 p-3 ">
-                                    <VscFolderOpened size={40} className="text-blue-300" />
-                                    <h1 className="mt-2 text-2xl text-blue-400 font-recoleta-bold font-outline">National Park Finder</h1>
+                                    <VscFolderOpened size={40} className="mr-2 text-blue-300 min-w-40" />
+                                    <h1 className="mt-2 text-2xl text-blue-400 whitespace-nowrap font-recoleta-bold font-outline">National Park Finder</h1>
                                 </section>
-                                <section className='w-full p-4 mt-5 text-center text-white h-36 font-recoleta-regular'>
+                                <section className='w-full p-4 mt-5 mb-4 text-center text-white md:-mb-6 h-36 font-recoleta-regular'>
                                         <p>Currently a work in progress. A site that aggregates all National Park data into one site. Users can create an account, view
                                             info about parks to help them plan a trip and add parks to a list of favorites.
                                         </p>
@@ -182,43 +183,35 @@ export default function Projects({ projectsRef }) {
                                 </ul>
                             </footer>
                             <div className="flex justify-start w-full pb-2 pl-6 mb-2">
-                                <a href="https://github.com/afbelardi/mint-photo-dapp" target="_blank" rel="noreferrer">
+                                <a href="https://github.com/afbelardi/np-frontend" target="_blank" rel="noreferrer">
                                     <FiGithub size={28} className="mt-5 text-white"/>
                                 </a>
-                                <a href="https://test-mint-site.herokuapp.com/" target="_blank" rel="noreferrer">
+                                {/* <a href="https://test-mint-site.herokuapp.com/" target="_blank" rel="noreferrer">
                                     <ImLink size={28} className="mt-5 ml-3 text-white" />
-                                </a>
+                                </a> */}
                             </div>
                             </div>
                         </div>
                              
                 </div>
-                <div ref={npRef} id={styles.thirdgrid} className={`${styles.notanimated} ${isNpVisible ? styles.projects: ''}`}>
+                <div ref={npBackendRef} id={styles.thirdgrid} className={`${styles.notanimated} ${isBackendVisible ? styles.projects: ''}`}>
                         <img className="object-cover rounded-lg opacity-15 min-h-400"  src="/photomint.png" />
                         <div className="absolute top-0 z-40 w-full h-full rounded-lg opacity-90 bg-light-navy">
                             <div className="flex flex-col items-center justify-center w-full h-full">
                                 <section className="flex justify-between w-5/6 p-3 ">
                                     <VscFolderOpened size={40} className="text-blue-300" />
-                                    <h1 className="mt-2 text-2xl text-blue-400 font-recoleta-bold font-outline">National Park Finder</h1>
+                                    <h1 className="mt-2 text-2xl text-blue-400 font-recoleta-bold font-outline">NP Finder Backend</h1>
                                 </section>
-                                <section className='w-full p-4 mt-5 text-center text-white h-36 font-recoleta-regular'>
-                                        <p>Currently a work in progress. A site that aggregates all National Park data into one site. Users can create an account, view
-                                            info about parks to help them plan a trip and add parks to a list of favorites.
+                                <section className='w-full p-4 mt-5 text-center text-white md:-mb-6 h-36 font-recoleta-regular'>
+                                        <p>Currently a work in progress. The backend to my National Park Finder project. Incorporates signup and login functionality with JWT and MongoDB. Makes calls
+                                            to the official National Parks API.
                                         </p>
                                 </section>
                                 <footer className="flex flex-col justify-end w-full h-1/6">
                                 <ul className="flex flex-wrap justify-start w-2/3 p-1 mb-2 ml-4 text-sm text-white whitespace-nowrap font-recoleta-bold">
                                     <li className="flex mr-2">
                                         <BiCaretRight className="mt-0.5 text-green-300"/>
-                                        <p>React</p>
-                                    </li>
-                                    <li className="flex mr-2">
-                                        <BiCaretRight className="mt-0.5 text-green-300"/>
-                                        <p>Next.js</p>
-                                    </li>
-                                    <li className="flex mr-2">
-                                        <BiCaretRight className="mt-0.5 text-green-300"/>
-                                        <p>Tailwind CSS</p>
+                                        <p>Express</p>
                                     </li>
                                     <li className="flex mr-2">
                                         <BiCaretRight className="mt-0.5 text-green-300"/>
@@ -226,17 +219,17 @@ export default function Projects({ projectsRef }) {
                                     </li>
                                     <li className="flex mr-2">
                                         <BiCaretRight className="mt-0.5 text-green-300"/>
-                                        <p>Google Maps API</p>
+                                        <p>Mongoose</p>
                                     </li>
                                 </ul>
                             </footer>
                             <div className="flex justify-start w-full pb-2 pl-6 mb-2">
-                                <a href="https://github.com/afbelardi/mint-photo-dapp" target="_blank" rel="noreferrer">
+                                <a href="https://github.com/afbelardi/np-project-backend" target="_blank" rel="noreferrer">
                                     <FiGithub size={28} className="mt-5 text-white"/>
                                 </a>
-                                <a href="https://test-mint-site.herokuapp.com/" target="_blank" rel="noreferrer">
+                                {/* <a href="https://test-mint-site.herokuapp.com/" target="_blank" rel="noreferrer">
                                     <ImLink size={28} className="mt-5 ml-3 text-white" />
-                                </a>
+                                </a> */}
                             </div>
                             </div>
                         </div>     
