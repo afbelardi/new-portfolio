@@ -1,6 +1,5 @@
 import styles from '../styles/aboutme.module.css';
 import { Fade } from 'react-reveal';
-import { Element } from 'react-scroll';
 import { useRef } from 'react';
 
 export default function AboutMe({ aboutRef }) {
