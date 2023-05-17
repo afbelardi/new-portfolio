@@ -190,6 +190,55 @@ export default function Projects({ projectsRef }) {
                                 </a>
                             </div>
                             </div>
+                        </div>
+                             
+                </div>
+                <div ref={npRef} id={styles.thirdgrid} className={`${styles.notanimated} ${isNpVisible ? styles.projects: ''}`}>
+                        <img className="object-cover rounded-lg opacity-15 min-h-400"  src="/photomint.png" />
+                        <div className="absolute top-0 z-40 w-full h-full rounded-lg opacity-90 bg-light-navy">
+                            <div className="flex flex-col items-center justify-center w-full h-full">
+                                <section className="flex justify-between w-5/6 p-3 ">
+                                    <VscFolderOpened size={40} className="text-blue-300" />
+                                    <h1 className="mt-2 text-2xl text-blue-400 font-recoleta-bold font-outline">National Park Finder</h1>
+                                </section>
+                                <section className='w-full p-4 mt-5 text-center text-white h-36 font-recoleta-regular'>
+                                        <p>Currently a work in progress. A site that aggregates all National Park data into one site. Users can create an account, view
+                                            info about parks to help them plan a trip and add parks to a list of favorites.
+                                        </p>
+                                </section>
+                                <footer className="flex flex-col justify-end w-full h-1/6">
+                                <ul className="flex flex-wrap justify-start w-2/3 p-1 mb-2 ml-4 text-sm text-white whitespace-nowrap font-recoleta-bold">
+                                    <li className="flex mr-2">
+                                        <BiCaretRight className="mt-0.5 text-green-300"/>
+                                        <p>React</p>
+                                    </li>
+                                    <li className="flex mr-2">
+                                        <BiCaretRight className="mt-0.5 text-green-300"/>
+                                        <p>Next.js</p>
+                                    </li>
+                                    <li className="flex mr-2">
+                                        <BiCaretRight className="mt-0.5 text-green-300"/>
+                                        <p>Tailwind CSS</p>
+                                    </li>
+                                    <li className="flex mr-2">
+                                        <BiCaretRight className="mt-0.5 text-green-300"/>
+                                        <p>JWT</p>
+                                    </li>
+                                    <li className="flex mr-2">
+                                        <BiCaretRight className="mt-0.5 text-green-300"/>
+                                        <p>Google Maps API</p>
+                                    </li>
+                                </ul>
+                            </footer>
+                            <div className="flex justify-start w-full pb-2 pl-6 mb-2">
+                                <a href="https://github.com/afbelardi/mint-photo-dapp" target="_blank" rel="noreferrer">
+                                    <FiGithub size={28} className="mt-5 text-white"/>
+                                </a>
+                                <a href="https://test-mint-site.herokuapp.com/" target="_blank" rel="noreferrer">
+                                    <ImLink size={28} className="mt-5 ml-3 text-white" />
+                                </a>
+                            </div>
+                            </div>
                         </div>     
                 </div>
             </div>
