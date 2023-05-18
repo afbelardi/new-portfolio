@@ -23,9 +23,9 @@ export default function Projects({ projectsRef }) {
                 </Fade>
             </div>
             <div className="flex justify-center w-full">
-            <div id={styles.grid} className="flex flex-col items-center p-1 mt-3 min-h-800">
+            <div id={styles} className="flex flex-col items-center p-1 mt-3 min-h-800">
                 <div ref={myRef} className={`${styles.notanimated} ${isElementVisible ? styles.projects: ''}`}>
-                        <img className="object-cover rounded-lg opacity-15 min-h-400"  src="/photoblog.png" />
+                        <img className="object-cover w-[600px] rounded-lg opacity-15 h-[400px]"  src="/photoblog.png" />
                         <div className="absolute top-0 z-40 w-full h-full rounded-lg opacity-90 bg-light-navy">
                             <div className="flex flex-col items-center justify-center w-full h-full">
                                 <section className="flex justify-between w-5/6 p-3">
@@ -69,7 +69,7 @@ export default function Projects({ projectsRef }) {
                         </div>
                 </div>
                 <div ref={nftRef} className={`${styles.notanimated} ${isNftVisible ? styles.projects: ''}`}>
-                        <img className="object-cover rounded-lg opacity-15 min-h-400"  src="/photomint.png" />
+                        <img className="object-cover w-[600px] rounded-lg opacity-15 h-[400px]"  src="/photomint.png" />
                         <div className="absolute top-0 z-40 w-full h-full rounded-lg opacity-90 bg-light-navy">
                             <div className="flex flex-col items-center justify-center w-full h-full">
                                 <section className="flex justify-between w-5/6 p-3 ">
@@ -113,7 +113,7 @@ export default function Projects({ projectsRef }) {
                         </div>     
                 </div>
                 <div ref={gtopRef} className={`${styles.notanimated} ${isGtopVisible ? styles.projects: ''}`}>
-                        <img className="object-cover rounded-lg opacity-15 min-h-400"  src="/gtop.png" />
+                        <img className="object-cover w-[600px] rounded-lg opacity-15 h-[400px]"  src="/gtop.png" />
                         <div className="absolute top-0 z-40 w-full h-full rounded-lg bg-light-navy opacity-90">
                             <div className="flex flex-col items-center justify-center w-full h-full">
                                 <section className="flex justify-between w-5/6 p-3">
@@ -145,11 +145,11 @@ export default function Projects({ projectsRef }) {
                             </div>
                         </div>
                 </div>
-                <div ref={npRef} className={`${styles.notanimated} ${isNpVisible ? styles.projects: ''}`}>
-                <img className="object-cover rounded-lg opacity-15 min-h-400"  src="/wip.jpg" />
+                <div ref={npRef}  className={`${styles.notanimated} ${isNpVisible ? styles.projects: ''}`}>
+                        <img className="w-[600px] rounded-lg opacity-15 min-h-400 h-[400px]"  src="/wip.jpg" />
                         <div className="absolute top-0 z-40 w-full h-full rounded-lg bg-light-navy opacity-90">
                             <div className="flex flex-col items-center justify-center w-full h-full">
-                                <section className="flex justify-between w-5/6 p-3">
+                                <section className="flex justify-between w-5/6 p-3 min-w-300">
                                     <VscFolderOpened size={40} className="text-blue-300 min-w-40"/>
                                     <h1 className="mt-2 text-2xl text-blue-400 min-w-215 font-recoleta-bold font-outline">National Park Finder</h1>
                                 </section>

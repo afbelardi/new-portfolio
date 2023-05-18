@@ -11,6 +11,8 @@
     animation: show 1s ease-in;
 }
 
+
+
 @media screen and (min-width: 1280px) {
   #grid {
     display: grid;
