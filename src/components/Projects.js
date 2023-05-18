@@ -146,7 +146,7 @@ export default function Projects({ projectsRef }) {
                         </div>
                 </div>
                 <div ref={npRef} className={`${styles.notanimated} ${isNpVisible ? styles.projects: ''}`}>
-                <img className="object-cover rounded-lg opacity-15 min-h-400"  src="/gtop.png" />
+                <img className="object-cover rounded-lg opacity-15 min-h-400"  src="/wip.jpg" />
                         <div className="absolute top-0 z-40 w-full h-full rounded-lg bg-light-navy opacity-90">
                             <div className="flex flex-col items-center justify-center w-full h-full">
                                 <section className="flex justify-between w-5/6 p-3">
@@ -191,7 +191,7 @@ export default function Projects({ projectsRef }) {
                         </div> 
                 </div>
                 <div ref={npBackendRef} id={styles.thirdgrid} className={`${styles.notanimated} ${isBackendVisible ? styles.projects: ''}`}>
-                        <img className="object-cover rounded-lg opacity-15 min-h-400"  src="/photomint.png" />
+                        <img className="object-cover rounded-lg opacity-15 min-h-400"  src="/np_backend.png" />
                         <div className="absolute top-0 z-40 w-full h-full rounded-lg opacity-90 bg-light-navy">
                             <div className="flex flex-col items-center justify-center w-full h-full">
                                 <section className="flex justify-between w-5/6 p-3 ">
