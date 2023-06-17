@@ -186,6 +186,9 @@ export default function Projects({ projectsRef }) {
                                 <a href="https://github.com/afbelardi/np-frontend" target="_blank" rel="noreferrer">
                                     <FiGithub size={28} className="mt-5 text-white"/>
                                 </a>
+                                <a href="https://np-frontend.herokuapp.com/" target="_blank" rel="noreferrer">
+                                    <ImLink size={28} className="mt-5 ml-3 text-white" />
+                                </a>
                             </div>
                             </div>
                         </div> 
