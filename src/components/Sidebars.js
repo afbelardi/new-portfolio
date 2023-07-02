@@ -2,7 +2,7 @@ import { BiCaretUp } from 'react-icons/bi';
 import { VscGithubAlt } from 'react-icons/vsc';
 import { CiTwitter, CiLinkedin, CiInstagram } from 'react-icons/ci';
 import { IoNewspaperOutline } from 'react-icons/io5';
-import { GoGist } from 'react-icons/go';
+import { GoFileCode } from 'react-icons/go';
 import styles from '../styles/sidebars.module.css';
 
 export default function Sidebars() {
@@ -27,7 +27,7 @@ export default function Sidebars() {
                     <VscGithubAlt className="mb-3 text-white" size={32}/>
                 </a>
                 <a href="https://gist.github.com/afbelardi" target="_blank" rel="noreferrer" title="Gists"> 
-                    <GoGist className="mb-2 text-white" size={32}/>
+                    <GoFileCode className="mb-2 text-white" size={32}/>
                 </a>
                 <a href="https://www.twitter.com/afbelardi" target="_blank" rel="noreferrer" title="Twitter">
                     <CiTwitter className="mb-2 text-white" size={32}/>
@@ -35,7 +35,7 @@ export default function Sidebars() {
                 <a href="https://www.linkedin.com/in/afbelardi" target="_blank" rel="noreferrer" title="LinkedIn">
                     <CiLinkedin className="mb-2 text-white" size={32} />
                 </a>
-                <a href="/resume.pdf" target="_blank" rel="noreferrer" title="View Resume">
+                <a href="/Resume.pdf" target="_blank" rel="noreferrer" title="View Resume">
                     <IoNewspaperOutline className="mb-2 text-white" size={30} />
                 </a>
             </div>
