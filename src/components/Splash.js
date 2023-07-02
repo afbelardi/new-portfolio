@@ -1,7 +1,7 @@
 import styles from '../styles/splash.module.css';
 import Fade from 'react-reveal/Fade';
-import { FaGithub, FaTwitter, FaLinkedin, FaInstagram } from 'react-icons/fa';
-import { GoGist } from 'react-icons/go';
+import { FaGithub, FaTwitter, FaLinkedin } from 'react-icons/fa';
+import { GoFileCode } from 'react-icons/go';
 
 export default function Splash (props) {
     return (
@@ -26,7 +26,7 @@ export default function Splash (props) {
                             <FaTwitter size={28} /> 
                         </a>
                         <a href="https://gist.github.com/afbelardi" target="_blank" rel="noreferrer" className="flex items-center justify-center bg-gray-200 rounded-3xl h-11 w-11">
-                            <GoGist size={28} />
+                            <GoFileCode size={28} />
                         </a>
                     </section>
                 </Fade>
