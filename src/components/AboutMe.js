@@ -42,7 +42,7 @@ export default function AboutMe({ aboutRef }) {
                     </Fade>
                    <Fade up>
                         <h1 className="mt-2 text-xl text-blue-400 font-recoleta-bold "> 
-                        With a proven track record of delivering high-quality results, I am currently seeking new opportunities in software engineering. I'm eager to collaborate on exciting projects and contribute my skills to help organizations thrive. Let's connect and explore how we can work together to achieve mutual success.
+                        With a proven track record of delivering high-quality results, I am currently seeking new opportunities in software engineering. I&apos;m eager to collaborate on exciting projects and contribute my skills to help organizations thrive. Let's connect and explore how we can work together to achieve mutual success.
                         </h1> 
                    </Fade> 
                 </div>
