@@ -34,7 +34,17 @@ export default function AboutMe({ aboutRef }) {
                         called 
                             <a href="https://www.linkedin.com/company/pullupon7th/" target="_blank" rel="noreferrer" className="ml-1 text-indigo-400 underline">7th Ave</a>. I contributed to the development of microservices and completed various front and back end projects while consistently learning on the fly.
                         </p> 
-                    </Fade> 
+                    </Fade>
+                    <Fade up>
+                        <p className="mt-2 text-white text-md font-recoleta-light">
+                        Whether it's developing robust software solutions, solving complex problems, or staying at the forefront of emerging technologies, I am committed to continuous growth and delivering excellence in every endeavor.
+                        </p> 
+                    </Fade>
+                    <Fade up>
+                        <p className="mt-2 text-white text-md font-recoleta-light">
+                        With a proven track record of delivering high-quality results, I am now seeking opportunities to collaborate on innovative projects and contribute to the future of software engineering. Let's connect and explore how we can drive technological advancement together.
+                        </p> 
+                    </Fade>
                    {/* 
                   //  CLOSING STATEMENT GOES HERE //
                    <Fade up>
