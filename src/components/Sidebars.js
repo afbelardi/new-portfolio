@@ -35,7 +35,7 @@ export default function Sidebars() {
                 <a href="https://www.linkedin.com/in/afbelardi" target="_blank" rel="noreferrer" title="LinkedIn">
                     <CiLinkedin className="mb-2 text-white" size={32} />
                 </a>
-                <a href="/Resume.pdf" target="_blank" rel="noreferrer" title="View Resume">
+                <a href="Resume.pdf" target="_blank" rel="noreferrer" title="View Resume">
                     <IoNewspaperOutline className="mb-2 text-white" size={30} />
                 </a>
             </div>

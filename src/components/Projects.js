@@ -138,7 +138,7 @@ export default function Projects({ projectsRef }) {
                                 </ul>
                             </footer>
                             <div className="flex justify-start w-full pl-6 mb-2 min-w-200">
-                                <a href="https://lucky-bonus-8482.on.fleek.co/" target="_blank" rel="noreferrer">
+                                <a href="https://gifts-to-our-people-40368bae2ee5.herokuapp.com/" target="_blank" rel="noreferrer">
                                     <ImLink size={28} className="relative mt-5 ml-3 text-white" />
                                 </a>
                             </div>
