@@ -37,12 +37,12 @@ export default function AboutMe({ aboutRef }) {
                     </Fade>
                     <Fade up>
                         <p className="mt-2 text-lg text-white font-recoleta-light">
-                        Whether it's developing robust software solutions, solving complex problems, or staying at the forefront of emerging technologies, I am committed to continuous growth and delivering excellence in every endeavor.
+                        Whether it&apos;s developing robust software solutions, solving complex problems, or staying at the forefront of emerging technologies, I am committed to continuous growth and delivering excellence in every endeavor.
                         </p> 
                     </Fade>
                    <Fade up>
                         <h1 className="mt-2 text-xl text-blue-400 font-recoleta-bold "> 
-                        With a proven track record of delivering high-quality results, I am currently seeking new opportunities in software engineering. I&apos;m eager to collaborate on exciting projects and contribute my skills to help organizations thrive. Let's connect and explore how we can work together to achieve mutual success.
+                        With a proven track record of delivering high-quality results, I am currently seeking new opportunities in software engineering. I&apos;m eager to collaborate on exciting projects and contribute my skills to help organizations thrive. Let&apos;s connect and explore how we can work together to achieve mutual success.
                         </h1> 
                    </Fade> 
                 </div>
