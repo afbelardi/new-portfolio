@@ -5,6 +5,7 @@
     src: local("Sabon_Bold"),
     url('/fonts/Sabon_Bold.ttf')
     format("truetype");
+    font-display: swap;
 }
 
 @font-face {
@@ -12,6 +13,7 @@
     src: local("Recoleta-Black"),
     url('/fonts/Recoleta-Black.ttf')
     format("truetype");
+    font-display: swap;
 }
 
 @font-face {
@@ -19,6 +21,7 @@
     src: local("Recoleta-Light"),
     url('/fonts/Recoleta-Light.ttf')
     format("truetype");
+    font-display: swap;
 }
 
 @font-face {
@@ -26,6 +29,7 @@
     src: local("Recoleta-Bold"),
     url('/fonts/Recoleta-Bold.ttf')
     format("truetype");
+    font-display: swap;
 }
 
 @font-face {
@@ -33,6 +37,7 @@
     src: local("Recoleta-Medium"),
     url('/fonts/Recoleta-Medium.ttf')
     format("truetype");
+    font-display: swap;
 }
 
 @font-face {
@@ -40,6 +45,7 @@
     src: local("Recoleta-Regular"),
     url('/fonts/Recoleta-Regular.ttf')
     format("truetype");
+    font-display: swap;
 }
 
 
