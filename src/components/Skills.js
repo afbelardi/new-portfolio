@@ -8,6 +8,7 @@ import { IoLogoCss3 } from 'react-icons/io';
 import { BiCaretRight } from 'react-icons/bi';
 
 
+
 export default function Skills({ skillsRef }) {
 
     const { ref: reactRef, inView: isReactIconVisible } = useInView();
