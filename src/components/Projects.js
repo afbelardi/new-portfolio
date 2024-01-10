@@ -1,4 +1,4 @@
-import { Fade } from "react-reveal";
+import { Fade } from "react-awesome-reveal";
 import styles from "../styles/aboutme.module.css";
 import { useInView } from "react-intersection-observer";
 import { VscFolderOpened } from "react-icons/vsc";
@@ -24,9 +24,7 @@ export default function Projects({ projectsRef }) {
         >
           Projects I&apos;ve built
         </h1>
-        <Fade right>
-          <hr className="w-2/5 h-0 mt-5 ml-7 bg-lighter-blue" />
-        </Fade>
+        <hr className="w-2/5 h-0 mt-5 ml-7 bg-lighter-blue" />
       </div>
       <div className="flex justify-center w-full">
         <div
