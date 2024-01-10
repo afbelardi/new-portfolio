@@ -86,8 +86,8 @@ export default function AboutMe({ aboutRef }) {
               explore how we can work together to achieve mutual success.
             </h1> */}
             <p className="mt-2 text-xl text-blue-400 font-recoleta-bold ">
-              Currently, I'm a lead Shopify developer at an e-commerce agency
-              called Prismfly. I skillfully manage a dynamic team of four
+              Currently, I`&apos;`m a lead Shopify developer at an e-commerce
+              agency called Prismfly. I skillfully manage a dynamic team of four
               developers while overseeing multiple client engagements. I excel
               in project leadership, ensuring the successful delivery of
               high-quality code within established timelines. With a focus on
