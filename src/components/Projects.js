@@ -44,6 +44,7 @@ export default function Projects({ projectsRef }) {
               height={400}
               className="object-cover w-[600px] rounded-lg opacity-15 h-[400px]"
               src="/photoblog.png"
+              loading="lazy"
             />
             <div className="absolute top-0 z-40 w-full h-full rounded-lg opacity-90 bg-light-navy">
               <div className="flex flex-col items-center justify-center w-full h-full">
@@ -111,6 +112,7 @@ export default function Projects({ projectsRef }) {
               height={400}
               className="object-cover w-[600px] rounded-lg opacity-15 h-[400px]"
               src="/photomint.png"
+              loading="lazy"
             />
             <div className="absolute top-0 z-40 w-full h-full rounded-lg opacity-90 bg-light-navy">
               <div className="flex flex-col items-center justify-center w-full h-full">
@@ -177,6 +179,7 @@ export default function Projects({ projectsRef }) {
             <img
               className="object-cover w-[600px] rounded-lg opacity-15 h-[400px]"
               src="/gtop.png"
+              loading="lazy"
             />
             <div className="absolute top-0 z-40 w-full h-full rounded-lg bg-light-navy opacity-90">
               <div className="flex flex-col items-center justify-center w-full h-full">
@@ -232,6 +235,7 @@ export default function Projects({ projectsRef }) {
             <img
               className="w-[600px] rounded-lg opacity-15 min-h-400 h-[400px]"
               src="/wip.jpg"
+              loading="lazy"
             />
             <div className="absolute top-0 z-40 w-full h-full rounded-lg bg-light-navy opacity-90">
               <div className="flex flex-col items-center justify-center w-full h-full">
@@ -305,6 +309,7 @@ export default function Projects({ projectsRef }) {
             <img
               className="object-cover rounded-lg opacity-15 min-h-400"
               src="/np_backend.png"
+              loading="lazy"
             />
             <div className="absolute top-0 z-40 w-full h-full rounded-lg opacity-90 bg-light-navy">
               <div className="flex flex-col items-center justify-center w-full h-full">
