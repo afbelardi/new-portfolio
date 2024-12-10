@@ -76,13 +76,6 @@ export default function AboutMe({ aboutRef }) {
             </p>
           </Slide>
           <Slide up>
-            {/* <h1 className="mt-2 text-xl text-blue-400 font-recoleta-bold ">
-              With a proven track record of delivering high-quality results, I
-              am currently seeking new opportunities in software engineering.
-              I&apos;m eager to collaborate on exciting projects and contribute
-              my skills to help organizations thrive. Let&apos;s connect and
-              explore how we can work together to achieve mutual success.
-            </h1> */}
             <p className="mt-2 text-xl text-blue-400 font-recoleta-bold ">
               Currently, I`&apos;`m a lead Shopify developer at an e-commerce
               agency called Prismfly. I skillfully manage a dynamic team of
