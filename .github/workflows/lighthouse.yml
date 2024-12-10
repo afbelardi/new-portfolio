@@ -1,0 +1,41 @@
+name: Lighthouse Checker
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  lighthouse:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        run: |
+          npm install -g @lhci/cli
+          npm ci
+
+      - name: Run Lighthouse on base branch
+        run: |
+          git checkout ${{ github.event.pull_request.head.sha }}
+          lhci autorun --upload.target=filesystem --outputDir=./lighthouse-pr-results
+
+      - name: Compare Lighthouse scores
+        run: |
+          base_score=$(cat lighthouse-base-results/lighthouse-ci-report.json | jq '.categories.performance.score' | jq -r '.*100')
+          pr_score=$(cat lighthouse-pr-results/lighthouse-ci-report.json | jq '.categories.performance.score' | jq -r '.*100')
+          score_difference=$((base_score - pr_score))
+          echo "Base Score: $base_score"
+          echo "PR Score: $pr_score"
+          echo "Score Difference: $score_difference"
+          if [ $score_difference -gt 5 ]; then
+            echo "Performance score decreased by more than 5 points. Failing the action."
+            exit 1
+          fi
