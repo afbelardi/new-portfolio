@@ -9,13 +9,15 @@ jobs:
   lighthouse:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
+      - name: Checkout Repository
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 18
+          node-version: 20
 
       - name: Install dependencies
         run: |
@@ -23,6 +25,11 @@ jobs:
           npm ci
 
       - name: Run Lighthouse on base branch
+        run: |
+          git checkout ${{ github.event.pull_request.base.sha }}
+          lhci autorun --upload.target=filesystem --outputDir=./lighthouse-base-results
+
+      - name: Run Lighthouse on PR branch
         run: |
           git checkout ${{ github.event.pull_request.head.sha }}
           lhci autorun --upload.target=filesystem --outputDir=./lighthouse-pr-results
