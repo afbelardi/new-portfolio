@@ -27,7 +27,7 @@ jobs:
       - name: Run Lighthouse on base branch
         run: |
           git checkout ${{ github.event.pull_request.base.sha }}
-          lhci autorun --upload.target=filesystem --outputDir=./lighthouse-base-results
+          lhci autorun --collect.url=https://www.afbelardicode.com --outputDir=./lighthouse-base-results
 
       - name: Run Lighthouse on PR branch
         run: |
