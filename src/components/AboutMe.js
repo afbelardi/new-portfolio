@@ -78,9 +78,9 @@ export default function AboutMe({ aboutRef }) {
           <Slide up>
             <p className="mt-2 text-xl text-blue-400 font-recoleta-bold ">
               Currently, I`&apos;`m a lead Shopify developer at an e-commerce
-              agency called Prismfly. I skillfully manage a dynamic team of
-              three developers while overseeing multiple client engagements. I
-              excel in project leadership, ensuring the successful delivery of
+              agency called Prismfly. I skillfully manage a dynamic team of two
+              developers while overseeing multiple client engagements. I excel
+              in project leadership, ensuring the successful delivery of
               high-quality code within established timelines. With a focus on
               client satisfaction, I serve as the primary point of contact for
               clients, gathering requirements and providing technical guidance.
